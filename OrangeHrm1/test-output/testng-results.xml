@@ -1,0 +1,1073 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="73" passed="65" failed="8" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-04T20:51:01 EEST" name="Suite" finished-at="2025-09-04T21:00:45 EEST" duration-ms="584356">
+    <groups>
+    </groups>
+    <test started-at="2025-09-04T20:51:01 EEST" name="Test" finished-at="2025-09-04T21:00:45 EEST" duration-ms="584356">
+      <class name="Organization_Module.OrganizationGeneralInfoTest">
+        <test-method is-config="true" signature="setUpPage()[pri:0, instance:Organization_Module.OrganizationGeneralInfoTest@477b4cdf]" started-at="2025-09-04T20:57:13 EEST" name="setUpPage" finished-at="2025-09-04T20:57:13 EEST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPage -->
+        <test-method signature="InvalidBlankEditTest()[pri:1, instance:Organization_Module.OrganizationGeneralInfoTest@477b4cdf]" started-at="2025-09-04T20:57:13 EEST" name="InvalidBlankEditTest" description="Verify admin can edit general information by leave required field empty" finished-at="2025-09-04T20:57:15 EEST" duration-ms="2341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidBlankEditTest -->
+        <test-method signature="InvalidEmailTest()[pri:2, instance:Organization_Module.OrganizationGeneralInfoTest@477b4cdf]" started-at="2025-09-04T20:57:15 EEST" name="InvalidEmailTest" description="Verify invalidEmail" finished-at="2025-09-04T20:57:18 EEST" duration-ms="2596" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidEmailTest -->
+        <test-method signature="InvalidPhoneNumberTest()[pri:3, instance:Organization_Module.OrganizationGeneralInfoTest@477b4cdf]" started-at="2025-09-04T20:57:18 EEST" name="InvalidPhoneNumberTest" description="Verify invalid phone Number" finished-at="2025-09-04T20:57:20 EEST" duration-ms="2102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidPhoneNumberTest -->
+        <test-method signature="OrganizationNameTest()[pri:4, instance:Organization_Module.OrganizationGeneralInfoTest@477b4cdf]" started-at="2025-09-04T20:57:20 EEST" name="OrganizationNameTest" description="Verify edit organizationName" finished-at="2025-09-04T20:57:23 EEST" duration-ms="2897" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrganizationNameTest -->
+      </class> <!-- Organization_Module.OrganizationGeneralInfoTest -->
+      <class name="Job_Module.JobCategoriesTest">
+        <test-method is-config="true" signature="setupClass()[pri:0, instance:Job_Module.JobCategoriesTest@1f2586d6]" started-at="2025-09-04T20:54:58 EEST" name="setupClass" finished-at="2025-09-04T20:55:01 EEST" duration-ms="2993" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupClass -->
+        <test-method signature="testAddJobCategoryValidInput()[pri:1, instance:Job_Module.JobCategoriesTest@1f2586d6]" started-at="2025-09-04T20:55:01 EEST" name="testAddJobCategoryValidInput" description="TC-07 Verify that a Job category can be added successfully with valid input" finished-at="2025-09-04T20:55:04 EEST" duration-ms="3285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddJobCategoryValidInput -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:Job_Module.JobCategoriesTest@1f2586d6]" started-at="2025-09-04T20:55:04 EEST" name="resetPage" finished-at="2025-09-04T20:55:09 EEST" duration-ms="5376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="testJobCategoryFieldCannotBeBlank()[pri:2, instance:Job_Module.JobCategoriesTest@1f2586d6]" started-at="2025-09-04T20:55:09 EEST" name="testJobCategoryFieldCannotBeBlank" description="TC-08 Verify system behavior when trying to add a Job Category without entering any data" finished-at="2025-09-04T20:55:12 EEST" duration-ms="2293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testJobCategoryFieldCannotBeBlank -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:Job_Module.JobCategoriesTest@1f2586d6]" started-at="2025-09-04T20:55:12 EEST" name="resetPage" finished-at="2025-09-04T20:55:16 EEST" duration-ms="4729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="testDuplicateJobCategoryNotAllowed()[pri:3, instance:Job_Module.JobCategoriesTest@1f2586d6]" started-at="2025-09-04T20:55:16 EEST" name="testDuplicateJobCategoryNotAllowed" description="TC-09 Verify the system does not allow adding duplicate job categories" finished-at="2025-09-04T20:55:20 EEST" duration-ms="3306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDuplicateJobCategoryNotAllowed -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:Job_Module.JobCategoriesTest@1f2586d6]" started-at="2025-09-04T20:55:20 EEST" name="resetPage" finished-at="2025-09-04T20:55:25 EEST" duration-ms="4816" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="testEditJobCategory()[pri:4, instance:Job_Module.JobCategoriesTest@1f2586d6]" started-at="2025-09-04T20:55:25 EEST" name="testEditJobCategory" description="TC-10 Verify an admin can edit an existing job category" finished-at="2025-09-04T20:55:28 EEST" duration-ms="3792" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditJobCategory -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:Job_Module.JobCategoriesTest@1f2586d6]" started-at="2025-09-04T20:55:28 EEST" name="resetPage" finished-at="2025-09-04T20:55:34 EEST" duration-ms="5318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="testDeleteSingleJobCategory()[pri:5, instance:Job_Module.JobCategoriesTest@1f2586d6]" started-at="2025-09-04T20:55:34 EEST" name="testDeleteSingleJobCategory" description="TC-11 Verify a job category can be deleted individually" finished-at="2025-09-04T20:55:36 EEST" duration-ms="2211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteSingleJobCategory -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:Job_Module.JobCategoriesTest@1f2586d6]" started-at="2025-09-04T20:55:36 EEST" name="resetPage" finished-at="2025-09-04T20:55:41 EEST" duration-ms="4966" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="testDeleteMultipleJobCategories()[pri:6, instance:Job_Module.JobCategoriesTest@1f2586d6]" started-at="2025-09-04T20:55:41 EEST" name="testDeleteMultipleJobCategories" description="TC-12 Verify multiple job categories can be deleted Simultaneously" finished-at="2025-09-04T20:55:43 EEST" duration-ms="2517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteMultipleJobCategories -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:Job_Module.JobCategoriesTest@1f2586d6]" started-at="2025-09-04T20:55:43 EEST" name="resetPage" finished-at="2025-09-04T20:55:49 EEST" duration-ms="5439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="testSpecialCharactersInJobCategory()[pri:7, instance:Job_Module.JobCategoriesTest@1f2586d6]" started-at="2025-09-04T20:55:49 EEST" name="testSpecialCharactersInJobCategory" description="TC-13 Verify if special characters are allowed or restricted in job category name" finished-at="2025-09-04T20:55:52 EEST" duration-ms="3312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSpecialCharactersInJobCategory -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:Job_Module.JobCategoriesTest@1f2586d6]" started-at="2025-09-04T20:55:52 EEST" name="resetPage" finished-at="2025-09-04T20:55:57 EEST" duration-ms="4999" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+      </class> <!-- Job_Module.JobCategoriesTest -->
+      <class name="Job_Module.PayGradesTest">
+        <test-method signature="addPayGrade()[pri:0, instance:Job_Module.PayGradesTest@6a78afa0]" started-at="2025-09-04T20:52:55 EEST" name="addPayGrade" description="TC-18+19 Add valid pay grade+Add currency to pay grade" finished-at="2025-09-04T20:53:06 EEST" duration-ms="10704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addPayGrade -->
+        <test-method is-config="true" signature="setUpPage()[pri:0, instance:Job_Module.PayGradesTest@6a78afa0]" started-at="2025-09-04T20:52:55 EEST" name="setUpPage" finished-at="2025-09-04T20:52:55 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPage -->
+        <test-method signature="checkRequiredFields()[pri:1, instance:Job_Module.PayGradesTest@6a78afa0]" started-at="2025-09-04T20:53:06 EEST" name="checkRequiredFields" description="TC-02 Verify required field validation on Add Pay Grade" finished-at="2025-09-04T20:53:09 EEST" duration-ms="2942" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkRequiredFields -->
+        <test-method is-config="true" signature="setUpPage()[pri:0, instance:Job_Module.PayGradesTest@6a78afa0]" started-at="2025-09-04T20:53:06 EEST" name="setUpPage" finished-at="2025-09-04T20:53:06 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPage -->
+        <test-method signature="verifyInvalidSalaryWarning()[pri:2, instance:Job_Module.PayGradesTest@6a78afa0]" started-at="2025-09-04T20:53:09 EEST" name="verifyInvalidSalaryWarning" description="TC-20 Max smaller than Min salary " finished-at="2025-09-04T20:53:13 EEST" duration-ms="4122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidSalaryWarning -->
+        <test-method is-config="true" signature="setUpPage()[pri:0, instance:Job_Module.PayGradesTest@6a78afa0]" started-at="2025-09-04T20:53:09 EEST" name="setUpPage" finished-at="2025-09-04T20:53:09 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPage -->
+        <test-method signature="verifyNegativeSalaryWarning()[pri:3, instance:Job_Module.PayGradesTest@6a78afa0]" started-at="2025-09-04T20:53:13 EEST" name="verifyNegativeSalaryWarning" description="TC-21 Negative salary values" finished-at="2025-09-04T20:53:13 EEST" duration-ms="729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNegativeSalaryWarning -->
+        <test-method is-config="true" signature="setUpPage()[pri:0, instance:Job_Module.PayGradesTest@6a78afa0]" started-at="2025-09-04T20:53:13 EEST" name="setUpPage" finished-at="2025-09-04T20:53:13 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPage -->
+        <test-method signature="deleteOneCurrency()[pri:4, instance:Job_Module.PayGradesTest@6a78afa0]" started-at="2025-09-04T20:53:13 EEST" name="deleteOneCurrency" description="TC-22 Delete single currency" finished-at="2025-09-04T20:53:24 EEST" duration-ms="10940" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteOneCurrency -->
+        <test-method is-config="true" signature="setUpPage()[pri:0, instance:Job_Module.PayGradesTest@6a78afa0]" started-at="2025-09-04T20:53:13 EEST" name="setUpPage" finished-at="2025-09-04T20:53:13 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPage -->
+        <test-method signature="deleteAllCurrencies()[pri:5, instance:Job_Module.PayGradesTest@6a78afa0]" started-at="2025-09-04T20:53:24 EEST" name="deleteAllCurrencies" description="TC-23 Delete all currencies" finished-at="2025-09-04T20:53:33 EEST" duration-ms="8757" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAllCurrencies -->
+        <test-method is-config="true" signature="setUpPage()[pri:0, instance:Job_Module.PayGradesTest@6a78afa0]" started-at="2025-09-04T20:53:24 EEST" name="setUpPage" finished-at="2025-09-04T20:53:24 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPage -->
+        <test-method signature="editPayGradeName()[pri:6, instance:Job_Module.PayGradesTest@6a78afa0]" started-at="2025-09-04T20:53:33 EEST" name="editPayGradeName" description="TC-09 Edit Pay Grade name" finished-at="2025-09-04T20:53:41 EEST" duration-ms="7717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editPayGradeName -->
+        <test-method is-config="true" signature="setUpPage()[pri:0, instance:Job_Module.PayGradesTest@6a78afa0]" started-at="2025-09-04T20:53:33 EEST" name="setUpPage" finished-at="2025-09-04T20:53:33 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPage -->
+        <test-method is-config="true" signature="setUpPage()[pri:0, instance:Job_Module.PayGradesTest@6a78afa0]" started-at="2025-09-04T20:53:41 EEST" name="setUpPage" finished-at="2025-09-04T20:53:41 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPage -->
+        <test-method signature="editCurrencyDetails()[pri:7, instance:Job_Module.PayGradesTest@6a78afa0]" started-at="2025-09-04T20:53:41 EEST" name="editCurrencyDetails" description="TC-27 Edit Currency Min/Max values" finished-at="2025-09-04T20:53:47 EEST" duration-ms="6226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editCurrencyDetails -->
+        <test-method signature="deleteOnePayGrade()[pri:8, instance:Job_Module.PayGradesTest@6a78afa0]" started-at="2025-09-04T20:53:47 EEST" name="deleteOnePayGrade" description="TC-24 Delete entire pay grade" finished-at="2025-09-04T20:53:53 EEST" duration-ms="6170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteOnePayGrade -->
+        <test-method is-config="true" signature="setUpPage()[pri:0, instance:Job_Module.PayGradesTest@6a78afa0]" started-at="2025-09-04T20:53:47 EEST" name="setUpPage" finished-at="2025-09-04T20:53:47 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPage -->
+        <test-method signature="deleteAllPayGrades()[pri:9, instance:Job_Module.PayGradesTest@6a78afa0]" started-at="2025-09-04T20:53:53 EEST" name="deleteAllPayGrades" description="TC-25 Delete all grades" finished-at="2025-09-04T20:53:57 EEST" duration-ms="3950" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAllPayGrades -->
+        <test-method is-config="true" signature="setUpPage()[pri:0, instance:Job_Module.PayGradesTest@6a78afa0]" started-at="2025-09-04T20:53:53 EEST" name="setUpPage" finished-at="2025-09-04T20:53:53 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPage -->
+      </class> <!-- Job_Module.PayGradesTest -->
+      <class name="Organization_Module.OrganizationLocationEditTest">
+        <test-method is-config="true" signature="setUpPage()[pri:0, instance:Organization_Module.OrganizationLocationEditTest@7eac9008]" started-at="2025-09-04T20:59:06 EEST" name="setUpPage" finished-at="2025-09-04T20:59:06 EEST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPage -->
+        <test-method signature="inValidEditTest()[pri:1, instance:Organization_Module.OrganizationLocationEditTest@7eac9008]" started-at="2025-09-04T20:59:06 EEST" name="inValidEditTest" description="Verify Edit Location with blank required fields" finished-at="2025-09-04T20:59:21 EEST" duration-ms="14619" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <button data-v-10d463b7="" type="submit" class="oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space">...</button> is not clickable at point (1402, 676). Other element would receive the click: <div data-v-d130bb63="" data-v-13cf171c="" role="option" class="oxd-select-option">...</div>
+  (Session info: chrome=139.0.7258.155)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [309f0a6af118b67d02b86eab03329850, clickElement {id=f.C721154D6E48D29BE12FAB0F3E6A97A0.d.F44DF734F91D8EC5B814633E97A789EB.e.4903}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.155, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\moham\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65104}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65104/devtoo..., se:cdpVersion: 139.0.7258.155, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (309f0a6af118b67d02b86eab03329850)] -> xpath: //button[@type='submit']]
+Session ID: 309f0a6af118b67d02b86eab03329850]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button data-v-10d463b7="" type="submit" class="oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space">...</button> is not clickable at point (1402, 676). Other element would receive the click: <div data-v-d130bb63="" data-v-13cf171c="" role="option" class="oxd-select-option">...</div>
+  (Session info: chrome=139.0.7258.155)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [309f0a6af118b67d02b86eab03329850, clickElement {id=f.C721154D6E48D29BE12FAB0F3E6A97A0.d.F44DF734F91D8EC5B814633E97A789EB.e.4903}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.155, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\moham\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65104}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65104/devtoo..., se:cdpVersion: 139.0.7258.155, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (309f0a6af118b67d02b86eab03329850)] -> xpath: //button[@type='submit']]
+Session ID: 309f0a6af118b67d02b86eab03329850
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at Organization_Module.OrganizationLocationsEdit.ClickSave(OrganizationLocationsEdit.java:115)
+at Organization_Module.OrganizationLocationEditTest.inValidEditTest(OrganizationLocationEditTest.java:31)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inValidEditTest -->
+        <test-method signature="CancelTest()[pri:2, instance:Organization_Module.OrganizationLocationEditTest@7eac9008]" started-at="2025-09-04T20:59:21 EEST" name="CancelTest" description="Verify Cancel Button is clickable" finished-at="2025-09-04T20:59:24 EEST" duration-ms="3144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CancelTest -->
+        <test-method signature="ValidEditTest()[pri:3, instance:Organization_Module.OrganizationLocationEditTest@7eac9008]" started-at="2025-09-04T20:59:24 EEST" name="ValidEditTest" description="Verify Update valid Location" finished-at="2025-09-04T20:59:35 EEST" duration-ms="10847" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidEditTest -->
+      </class> <!-- Organization_Module.OrganizationLocationEditTest -->
+      <class name="Job_Module.EmploymentStatusTest">
+        <test-method is-config="true" signature="setupClass()[pri:0, instance:Job_Module.EmploymentStatusTest@2f4948e4]" started-at="2025-09-04T20:53:57 EEST" name="setupClass" finished-at="2025-09-04T20:53:58 EEST" duration-ms="1162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupClass -->
+        <test-method signature="testAddEmploymentStatus()[pri:1, instance:Job_Module.EmploymentStatusTest@2f4948e4]" started-at="2025-09-04T20:53:58 EEST" name="testAddEmploymentStatus" description="TC-01 Verify that Admin can successfully add a new employment status" finished-at="2025-09-04T20:54:04 EEST" duration-ms="5337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddEmploymentStatus -->
+        <test-method is-config="true" signature="waitBetweenTests()[pri:0, instance:Job_Module.EmploymentStatusTest@2f4948e4]" started-at="2025-09-04T20:54:04 EEST" name="waitBetweenTests" finished-at="2025-09-04T20:54:09 EEST" duration-ms="5000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitBetweenTests -->
+        <test-method signature="testEmploymentStatusFieldCannotBeBlank()[pri:2, instance:Job_Module.EmploymentStatusTest@2f4948e4]" started-at="2025-09-04T20:54:09 EEST" name="testEmploymentStatusFieldCannotBeBlank" description="TC-02 Verify That Employment Status field cannot be left blank during creation" finished-at="2025-09-04T20:54:12 EEST" duration-ms="3272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmploymentStatusFieldCannotBeBlank -->
+        <test-method is-config="true" signature="waitBetweenTests()[pri:0, instance:Job_Module.EmploymentStatusTest@2f4948e4]" started-at="2025-09-04T20:54:12 EEST" name="waitBetweenTests" finished-at="2025-09-04T20:54:17 EEST" duration-ms="5001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitBetweenTests -->
+        <test-method signature="testEditEmploymentStatus()[pri:3, instance:Job_Module.EmploymentStatusTest@2f4948e4]" started-at="2025-09-04T20:54:17 EEST" name="testEditEmploymentStatus" description="TC-03 Verify that admin can edit an existing employment status" finished-at="2025-09-04T20:54:21 EEST" duration-ms="4555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditEmploymentStatus -->
+        <test-method is-config="true" signature="waitBetweenTests()[pri:0, instance:Job_Module.EmploymentStatusTest@2f4948e4]" started-at="2025-09-04T20:54:21 EEST" name="waitBetweenTests" finished-at="2025-09-04T20:54:26 EEST" duration-ms="5001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitBetweenTests -->
+        <test-method signature="testDeleteSingleEmploymentStatus()[pri:4, instance:Job_Module.EmploymentStatusTest@2f4948e4]" started-at="2025-09-04T20:54:26 EEST" name="testDeleteSingleEmploymentStatus" description="TC-04 Verify that a single employment status can be deleted" finished-at="2025-09-04T20:54:30 EEST" duration-ms="3338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteSingleEmploymentStatus -->
+        <test-method is-config="true" signature="waitBetweenTests()[pri:0, instance:Job_Module.EmploymentStatusTest@2f4948e4]" started-at="2025-09-04T20:54:30 EEST" name="waitBetweenTests" finished-at="2025-09-04T20:54:35 EEST" duration-ms="5001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitBetweenTests -->
+        <test-method signature="testDeleteMultipleEmploymentStatuses()[pri:5, instance:Job_Module.EmploymentStatusTest@2f4948e4]" started-at="2025-09-04T20:54:35 EEST" name="testDeleteMultipleEmploymentStatuses" description="TC-05 Verify that multiple employment status can be deleted at the same time" finished-at="2025-09-04T20:54:38 EEST" duration-ms="3278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteMultipleEmploymentStatuses -->
+        <test-method is-config="true" signature="waitBetweenTests()[pri:0, instance:Job_Module.EmploymentStatusTest@2f4948e4]" started-at="2025-09-04T20:54:38 EEST" name="waitBetweenTests" finished-at="2025-09-04T20:54:43 EEST" duration-ms="5002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitBetweenTests -->
+        <test-method signature="testDuplicateEmploymentStatusNotAllowed()[pri:6, instance:Job_Module.EmploymentStatusTest@2f4948e4]" started-at="2025-09-04T20:54:43 EEST" name="testDuplicateEmploymentStatusNotAllowed" description="TC-06 Verify that the system does not allow adding duplicate employment status" finished-at="2025-09-04T20:54:53 EEST" duration-ms="9701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDuplicateEmploymentStatusNotAllowed -->
+        <test-method is-config="true" signature="waitBetweenTests()[pri:0, instance:Job_Module.EmploymentStatusTest@2f4948e4]" started-at="2025-09-04T20:54:53 EEST" name="waitBetweenTests" finished-at="2025-09-04T20:54:58 EEST" duration-ms="5000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitBetweenTests -->
+      </class> <!-- Job_Module.EmploymentStatusTest -->
+      <class name="Organization_Module.OrganizationLOcationDeleteTest">
+        <test-method is-config="true" signature="setUpPage()[pri:0, instance:Organization_Module.OrganizationLOcationDeleteTest@4116aac9]" started-at="2025-09-04T20:59:35 EEST" name="setUpPage" finished-at="2025-09-04T20:59:35 EEST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPage -->
+        <test-method signature="CancelTest()[pri:1, instance:Organization_Module.OrganizationLOcationDeleteTest@4116aac9]" started-at="2025-09-04T20:59:35 EEST" name="CancelTest" description="Verify Cancel Button" finished-at="2025-09-04T20:59:38 EEST" duration-ms="2867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CancelTest -->
+        <test-method signature="DeleteTest()[pri:2, instance:Organization_Module.OrganizationLOcationDeleteTest@4116aac9]" started-at="2025-09-04T20:59:38 EEST" name="DeleteTest" description="Verify Delete recored" finished-at="2025-09-04T20:59:40 EEST" duration-ms="2797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteTest -->
+        <test-method signature="DeleteMultipleTest()[pri:3, instance:Organization_Module.OrganizationLOcationDeleteTest@4116aac9]" started-at="2025-09-04T20:59:40 EEST" name="DeleteMultipleTest" description="Verify Delete multiple record" finished-at="2025-09-04T20:59:52 EEST" duration-ms="12012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteMultipleTest -->
+        <test-method signature="ValidAddTest()[pri:4, instance:Organization_Module.OrganizationLOcationDeleteTest@4116aac9]" started-at="2025-09-04T20:59:52 EEST" name="ValidAddTest" description="Verify Add valid Location" finished-at="2025-09-04T21:00:11 EEST" duration-ms="18840" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //div[@id='oxd-toaster_1'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.155, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\moham\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65104}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65104/devtoo..., se:cdpVersion: 139.0.7258.155, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 309f0a6af118b67d02b86eab03329850]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@id='oxd-toaster_1'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.155, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\moham\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65104}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65104/devtoo..., se:cdpVersion: 139.0.7258.155, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 309f0a6af118b67d02b86eab03329850
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at Organization_Module.OrganizationLocations.getSuccessMessage(OrganizationLocations.java:103)
+at Organization_Module.OrganizationLOcationDeleteTest.ValidAddTest(OrganizationLOcationDeleteTest.java:58)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidAddTest -->
+        <test-method signature="DeleteAllRecordsTest()[pri:5, instance:Organization_Module.OrganizationLOcationDeleteTest@4116aac9]" started-at="2025-09-04T21:00:11 EEST" name="DeleteAllRecordsTest" description="Verify Delete All Records" finished-at="2025-09-04T21:00:15 EEST" duration-ms="3392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteAllRecordsTest -->
+        <test-method signature="ValidAddTest2()[pri:6, instance:Organization_Module.OrganizationLOcationDeleteTest@4116aac9]" started-at="2025-09-04T21:00:15 EEST" name="ValidAddTest2" description="Verify Add valid Location" finished-at="2025-09-04T21:00:24 EEST" duration-ms="9750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidAddTest2 -->
+      </class> <!-- Organization_Module.OrganizationLOcationDeleteTest -->
+      <class name="Job_Module.JobTitlesTest">
+        <test-method is-config="true" signature="setUpPage()[pri:0, instance:Job_Module.JobTitlesTest@dd05255]" started-at="2025-09-04T20:52:01 EEST" name="setUpPage" finished-at="2025-09-04T20:52:01 EEST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPage -->
+        <test-method signature="addJobTitle()[pri:0, instance:Job_Module.JobTitlesTest@dd05255]" started-at="2025-09-04T20:52:01 EEST" name="addJobTitle" description="TC-13 Add valid job title" finished-at="2025-09-04T20:52:13 EEST" duration-ms="11550" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addJobTitle -->
+        <test-method signature="checkRequiredFields()[pri:1, instance:Job_Module.JobTitlesTest@dd05255]" started-at="2025-09-04T20:52:13 EEST" name="checkRequiredFields" description="TC-14 Verify required fields" finished-at="2025-09-04T20:52:17 EEST" duration-ms="4129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkRequiredFields -->
+        <test-method is-config="true" signature="setUpPage()[pri:0, instance:Job_Module.JobTitlesTest@dd05255]" started-at="2025-09-04T20:52:13 EEST" name="setUpPage" finished-at="2025-09-04T20:52:13 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPage -->
+        <test-method signature="editJobTitle()[pri:2, instance:Job_Module.JobTitlesTest@dd05255]" started-at="2025-09-04T20:52:17 EEST" name="editJobTitle" description="TC-17 Edit Job Title works correctly" finished-at="2025-09-04T20:52:26 EEST" duration-ms="8499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editJobTitle -->
+        <test-method is-config="true" signature="setUpPage()[pri:0, instance:Job_Module.JobTitlesTest@dd05255]" started-at="2025-09-04T20:52:17 EEST" name="setUpPage" finished-at="2025-09-04T20:52:17 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPage -->
+        <test-method signature="deleteJob()[pri:3, instance:Job_Module.JobTitlesTest@dd05255]" started-at="2025-09-04T20:52:26 EEST" name="deleteJob" description="TC-15 Verify that the delete works correctly" finished-at="2025-09-04T20:52:31 EEST" duration-ms="5027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteJob -->
+        <test-method is-config="true" signature="setUpPage()[pri:0, instance:Job_Module.JobTitlesTest@dd05255]" started-at="2025-09-04T20:52:26 EEST" name="setUpPage" finished-at="2025-09-04T20:52:26 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPage -->
+        <test-method is-config="true" signature="setUpPage()[pri:0, instance:Job_Module.JobTitlesTest@dd05255]" started-at="2025-09-04T20:52:31 EEST" name="setUpPage" finished-at="2025-09-04T20:52:31 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPage -->
+        <test-method signature="deleteAllJobs()[pri:4, instance:Job_Module.JobTitlesTest@dd05255]" started-at="2025-09-04T20:52:31 EEST" name="deleteAllJobs" description="TC-16 Verify that the delete All useres Selected works correctly" finished-at="2025-09-04T20:52:55 EEST" duration-ms="24291" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: (//div[@class='oxd-checkbox-wrapper'])[1] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.155, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\moham\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65104}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65104/devtoo..., se:cdpVersion: 139.0.7258.155, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 309f0a6af118b67d02b86eab03329850]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: (//div[@class='oxd-checkbox-wrapper'])[1] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.155, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\moham\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65104}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65104/devtoo..., se:cdpVersion: 139.0.7258.155, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 309f0a6af118b67d02b86eab03329850
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at Job_Module.JobTitles.deleteAllUsers(JobTitles.java:169)
+at Job_Module.JobTitlesTest.deleteAllJobs(JobTitlesTest.java:51)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAllJobs -->
+      </class> <!-- Job_Module.JobTitlesTest -->
+      <class name="PIM_Module.AddEmployeeTest">
+        <test-method signature="validAddEmployee()[pri:1, instance:PIM_Module.AddEmployeeTest@62ddbd7e]" started-at="2025-09-04T21:00:24 EEST" name="validAddEmployee" finished-at="2025-09-04T21:00:32 EEST" duration-ms="8010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validAddEmployee -->
+        <test-method is-config="true" signature="setUpPages()[pri:0, instance:PIM_Module.AddEmployeeTest@62ddbd7e]" started-at="2025-09-04T21:00:24 EEST" name="setUpPages" finished-at="2025-09-04T21:00:24 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPages -->
+        <test-method signature="invalidAddEmployeeWithBlankFields()[pri:2, instance:PIM_Module.AddEmployeeTest@62ddbd7e]" started-at="2025-09-04T21:00:32 EEST" name="invalidAddEmployeeWithBlankFields" finished-at="2025-09-04T21:00:37 EEST" duration-ms="4488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidAddEmployeeWithBlankFields -->
+        <test-method signature="invalidAddEmployeeWithTooLargeData()[pri:3, instance:PIM_Module.AddEmployeeTest@62ddbd7e]" started-at="2025-09-04T21:00:37 EEST" name="invalidAddEmployeeWithTooLargeData" finished-at="2025-09-04T21:00:41 EEST" duration-ms="3673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidAddEmployeeWithTooLargeData -->
+        <test-method signature="cancelAddEmployeeTest()[pri:4, instance:PIM_Module.AddEmployeeTest@62ddbd7e]" started-at="2025-09-04T21:00:41 EEST" name="cancelAddEmployeeTest" finished-at="2025-09-04T21:00:45 EEST" duration-ms="4467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cancelAddEmployeeTest -->
+      </class> <!-- PIM_Module.AddEmployeeTest -->
+      <class name="Organization_Module.OrganizationLocationAddTest">
+        <test-method is-config="true" signature="setUpPage()[pri:0, instance:Organization_Module.OrganizationLocationAddTest@77c2494c]" started-at="2025-09-04T20:57:23 EEST" name="setUpPage" finished-at="2025-09-04T20:57:23 EEST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPage -->
+        <test-method signature="inValidAddTest()[pri:1, instance:Organization_Module.OrganizationLocationAddTest@77c2494c]" started-at="2025-09-04T20:57:23 EEST" name="inValidAddTest" description="Verify Add invalid Location blank required fields" finished-at="2025-09-04T20:57:36 EEST" duration-ms="13522" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <button data-v-10d463b7="" type="submit" class="oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space">...</button> is not clickable at point (1402, 676). Other element would receive the click: <div data-v-d130bb63="" data-v-13cf171c="" role="option" class="oxd-select-option">...</div>
+  (Session info: chrome=139.0.7258.155)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [309f0a6af118b67d02b86eab03329850, clickElement {id=f.C721154D6E48D29BE12FAB0F3E6A97A0.d.C2B65DE2B0B3CA6DAFABDA171831E221.e.2717}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.155, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\moham\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65104}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65104/devtoo..., se:cdpVersion: 139.0.7258.155, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (309f0a6af118b67d02b86eab03329850)] -> xpath: //button[@type='submit']]
+Session ID: 309f0a6af118b67d02b86eab03329850]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button data-v-10d463b7="" type="submit" class="oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space">...</button> is not clickable at point (1402, 676). Other element would receive the click: <div data-v-d130bb63="" data-v-13cf171c="" role="option" class="oxd-select-option">...</div>
+  (Session info: chrome=139.0.7258.155)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [309f0a6af118b67d02b86eab03329850, clickElement {id=f.C721154D6E48D29BE12FAB0F3E6A97A0.d.C2B65DE2B0B3CA6DAFABDA171831E221.e.2717}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.155, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\moham\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65104}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65104/devtoo..., se:cdpVersion: 139.0.7258.155, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (309f0a6af118b67d02b86eab03329850)] -> xpath: //button[@type='submit']]
+Session ID: 309f0a6af118b67d02b86eab03329850
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at Organization_Module.OrganizationLocations.SaveAdd(OrganizationLocations.java:95)
+at Organization_Module.OrganizationLocationAddTest.inValidAddTest(OrganizationLocationAddTest.java:43)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inValidAddTest -->
+        <test-method signature="ValidAddTest()[pri:2, instance:Organization_Module.OrganizationLocationAddTest@77c2494c]" started-at="2025-09-04T20:57:36 EEST" name="ValidAddTest" description="Verify Add valid Location" finished-at="2025-09-04T20:57:46 EEST" duration-ms="9381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidAddTest -->
+        <test-method signature="DuplicateAddTest()[pri:3, instance:Organization_Module.OrganizationLocationAddTest@77c2494c]" started-at="2025-09-04T20:57:46 EEST" name="DuplicateAddTest" description="Verify Add duplicate Location" finished-at="2025-09-04T20:57:55 EEST" duration-ms="9182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DuplicateAddTest -->
+      </class> <!-- Organization_Module.OrganizationLocationAddTest -->
+      <class name="Organization_Module.OrganizationLocationsTest">
+        <test-method is-config="true" signature="setUpPage()[pri:0, instance:Organization_Module.OrganizationLocationsTest@1fa121e2]" started-at="2025-09-04T20:57:55 EEST" name="setUpPage" finished-at="2025-09-04T20:57:55 EEST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPage -->
+        <test-method signature="ValidAddTest()[pri:1, instance:Organization_Module.OrganizationLocationsTest@1fa121e2]" started-at="2025-09-04T20:57:55 EEST" name="ValidAddTest" description="Verify Add valid Location" finished-at="2025-09-04T20:58:05 EEST" duration-ms="10164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidAddTest -->
+        <test-method signature="ValidNameSearch()[pri:1, instance:Organization_Module.OrganizationLocationsTest@1fa121e2]" started-at="2025-09-04T20:58:05 EEST" name="ValidNameSearch" description="Verify Search with valid name" finished-at="2025-09-04T20:58:09 EEST" duration-ms="3909" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+doesnt match expected [Cairo20] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+doesnt match expected [Cairo20] but found []
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at Organization_Module.OrganizationLocationsTest.ValidNameSearch(OrganizationLocationsTest.java:43)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidNameSearch -->
+        <test-method signature="ValidCitySearch()[pri:2, instance:Organization_Module.OrganizationLocationsTest@1fa121e2]" started-at="2025-09-04T20:58:09 EEST" name="ValidCitySearch" description="Verify Search with valid city" finished-at="2025-09-04T20:58:23 EEST" duration-ms="13745" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for number of elements found by By.cssSelector: div.oxd-table-body div.oxd-table-card to be more than "0". Current number: "0" (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.155, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\moham\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65104}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65104/devtoo..., se:cdpVersion: 139.0.7258.155, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 309f0a6af118b67d02b86eab03329850]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for number of elements found by By.cssSelector: div.oxd-table-body div.oxd-table-card to be more than "0". Current number: "0" (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.155, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\moham\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65104}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65104/devtoo..., se:cdpVersion: 139.0.7258.155, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 309f0a6af118b67d02b86eab03329850
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at Organization_Module.LocationSearchReset.getRowCells(LocationSearchReset.java:75)
+at Organization_Module.OrganizationLocationsTest.ValidCitySearch(OrganizationLocationsTest.java:51)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidCitySearch -->
+        <test-method signature="ValidSearch()[pri:3, instance:Organization_Module.OrganizationLocationsTest@1fa121e2]" started-at="2025-09-04T20:58:23 EEST" name="ValidSearch" description="Verify Search with valid data " finished-at="2025-09-04T20:58:43 EEST" duration-ms="20294" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for number of elements found by By.cssSelector: div.oxd-table-body div.oxd-table-card to be more than "0". Current number: "0" (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.155, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\moham\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65104}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65104/devtoo..., se:cdpVersion: 139.0.7258.155, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 309f0a6af118b67d02b86eab03329850]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for number of elements found by By.cssSelector: div.oxd-table-body div.oxd-table-card to be more than "0". Current number: "0" (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.155, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\moham\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65104}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65104/devtoo..., se:cdpVersion: 139.0.7258.155, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 309f0a6af118b67d02b86eab03329850
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at Organization_Module.LocationSearchReset.getRowCells(LocationSearchReset.java:75)
+at Organization_Module.OrganizationLocationsTest.ValidSearch(OrganizationLocationsTest.java:63)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidSearch -->
+        <test-method signature="ResetTest()[pri:4, instance:Organization_Module.OrganizationLocationsTest@1fa121e2]" started-at="2025-09-04T20:58:43 EEST" name="ResetTest" description="Verify reset button" finished-at="2025-09-04T20:58:53 EEST" duration-ms="9756" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ResetTest -->
+        <test-method signature="inValidSearch()[pri:5, instance:Organization_Module.OrganizationLocationsTest@1fa121e2]" started-at="2025-09-04T20:58:53 EEST" name="inValidSearch" description="Verify Search with invalid data " finished-at="2025-09-04T20:59:06 EEST" duration-ms="13325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inValidSearch -->
+      </class> <!-- Organization_Module.OrganizationLocationsTest -->
+      <class name="QABootcamp_Maven.OrangeHRM.LogInTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:QABootcamp_Maven.OrangeHRM.LogInTest@815b41f]" started-at="2025-09-04T20:51:01 EEST" name="setup" finished-at="2025-09-04T20:51:04 EEST" duration-ms="2645" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUpPage()[pri:0, instance:QABootcamp_Maven.OrangeHRM.LogInTest@815b41f]" started-at="2025-09-04T20:51:04 EEST" name="setUpPage" finished-at="2025-09-04T20:51:04 EEST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPage -->
+        <test-method signature="logIn(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:QABootcamp_Maven.OrangeHRM.LogInTest@815b41f]" started-at="2025-09-04T20:51:04 EEST" name="logIn" data-provider="LogInData" finished-at="2025-09-04T20:51:06 EEST" duration-ms="2139" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid credentials]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.name: username (tried for 2 second(s) with 500 milliseconds interval)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.155, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\moham\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65104}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65104/devtoo..., se:cdpVersion: 139.0.7258.155, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 309f0a6af118b67d02b86eab03329850]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.name: username (tried for 2 second(s) with 500 milliseconds interval)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.155, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\moham\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65104}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65104/devtoo..., se:cdpVersion: 139.0.7258.155, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 309f0a6af118b67d02b86eab03329850
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at QABootcamp_Maven.OrangeHRM.LogIn.enterUserName(LogIn.java:24)
+at QABootcamp_Maven.OrangeHRM.LogIn.Login(LogIn.java:52)
+at QABootcamp_Maven.OrangeHRM.LogInTest.logIn(LogInTest.java:24)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method signature="logIn(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:QABootcamp_Maven.OrangeHRM.LogInTest@815b41f]" started-at="2025-09-04T20:51:06 EEST" name="logIn" data-provider="LogInData" finished-at="2025-09-04T20:51:08 EEST" duration-ms="2096" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid credentials]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method is-config="true" signature="setUpPage()[pri:0, instance:QABootcamp_Maven.OrangeHRM.LogInTest@815b41f]" started-at="2025-09-04T20:51:06 EEST" name="setUpPage" finished-at="2025-09-04T20:51:06 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPage -->
+        <test-method signature="logIn(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:QABootcamp_Maven.OrangeHRM.LogInTest@815b41f]" started-at="2025-09-04T20:51:08 EEST" name="logIn" data-provider="LogInData" finished-at="2025-09-04T20:51:08 EEST" duration-ms="561" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid credentials]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method is-config="true" signature="setUpPage()[pri:0, instance:QABootcamp_Maven.OrangeHRM.LogInTest@815b41f]" started-at="2025-09-04T20:51:08 EEST" name="setUpPage" finished-at="2025-09-04T20:51:08 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPage -->
+        <test-method signature="logIn(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:QABootcamp_Maven.OrangeHRM.LogInTest@815b41f]" started-at="2025-09-04T20:51:08 EEST" name="logIn" data-provider="LogInData" finished-at="2025-09-04T20:51:11 EEST" duration-ms="2146" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Dashboard]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method is-config="true" signature="setUpPage()[pri:0, instance:QABootcamp_Maven.OrangeHRM.LogInTest@815b41f]" started-at="2025-09-04T20:51:08 EEST" name="setUpPage" finished-at="2025-09-04T20:51:08 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:QABootcamp_Maven.OrangeHRM.LogInTest@815b41f]" started-at="2025-09-04T21:00:45 EEST" name="tearDown" finished-at="2025-09-04T21:00:45 EEST" duration-ms="240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- QABootcamp_Maven.OrangeHRM.LogInTest -->
+      <class name="Job_Module.WorkShiftsTest">
+        <test-method is-config="true" signature="setupClass()[pri:0, instance:Job_Module.WorkShiftsTest@10683d9d]" started-at="2025-09-04T20:55:57 EEST" name="setupClass" finished-at="2025-09-04T20:55:59 EEST" duration-ms="1676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupClass -->
+        <test-method signature="addValidWorkShift()[pri:1, instance:Job_Module.WorkShiftsTest@10683d9d]" started-at="2025-09-04T20:55:59 EEST" name="addValidWorkShift" description="TC-14 Verify Admin can add a new Work Shift with valid details" finished-at="2025-09-04T20:56:06 EEST" duration-ms="7303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addValidWorkShift -->
+        <test-method is-config="true" signature="cleanup()[pri:0, instance:Job_Module.WorkShiftsTest@10683d9d]" started-at="2025-09-04T20:56:06 EEST" name="cleanup" finished-at="2025-09-04T20:56:17 EEST" duration-ms="10354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+        <test-method is-config="true" signature="smallPause()[pri:0, instance:Job_Module.WorkShiftsTest@10683d9d]" started-at="2025-09-04T20:56:17 EEST" name="smallPause" finished-at="2025-09-04T20:56:18 EEST" duration-ms="1002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smallPause -->
+        <test-method signature="addOvernightWorkShift_bugShowsError()[pri:2, instance:Job_Module.WorkShiftsTest@10683d9d]" started-at="2025-09-04T20:56:18 EEST" name="addOvernightWorkShift_bugShowsError" description="TC-15 Verify Admin can add an overnight Work Shift " finished-at="2025-09-04T20:56:20 EEST" duration-ms="2283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addOvernightWorkShift_bugShowsError -->
+        <test-method is-config="true" signature="cleanup()[pri:0, instance:Job_Module.WorkShiftsTest@10683d9d]" started-at="2025-09-04T20:56:20 EEST" name="cleanup" finished-at="2025-09-04T20:56:23 EEST" duration-ms="3618" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+        <test-method is-config="true" signature="smallPause()[pri:0, instance:Job_Module.WorkShiftsTest@10683d9d]" started-at="2025-09-04T20:56:23 EEST" name="smallPause" finished-at="2025-09-04T20:56:24 EEST" duration-ms="1001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smallPause -->
+        <test-method signature="cannotAddWithMissingMandatoryFields()[pri:3, instance:Job_Module.WorkShiftsTest@10683d9d]" started-at="2025-09-04T20:56:24 EEST" name="cannotAddWithMissingMandatoryFields" description="TC-16 Verify Admin cannot add Work Shift with missing mandatory fields" finished-at="2025-09-04T20:56:27 EEST" duration-ms="2181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cannotAddWithMissingMandatoryFields -->
+        <test-method is-config="true" signature="cleanup()[pri:0, instance:Job_Module.WorkShiftsTest@10683d9d]" started-at="2025-09-04T20:56:27 EEST" name="cleanup" finished-at="2025-09-04T20:56:30 EEST" duration-ms="3660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+        <test-method is-config="true" signature="smallPause()[pri:0, instance:Job_Module.WorkShiftsTest@10683d9d]" started-at="2025-09-04T20:56:30 EEST" name="smallPause" finished-at="2025-09-04T20:56:31 EEST" duration-ms="1001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smallPause -->
+        <test-method signature="cannotAddDuplicateName()[pri:4, instance:Job_Module.WorkShiftsTest@10683d9d]" started-at="2025-09-04T20:56:31 EEST" name="cannotAddDuplicateName" description="TC-17 Verify Admin cannot add Work Shift with duplicate name" finished-at="2025-09-04T20:56:33 EEST" duration-ms="2173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cannotAddDuplicateName -->
+        <test-method is-config="true" signature="cleanup()[pri:0, instance:Job_Module.WorkShiftsTest@10683d9d]" started-at="2025-09-04T20:56:33 EEST" name="cleanup" finished-at="2025-09-04T20:56:37 EEST" duration-ms="3651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+        <test-method is-config="true" signature="smallPause()[pri:0, instance:Job_Module.WorkShiftsTest@10683d9d]" started-at="2025-09-04T20:56:37 EEST" name="smallPause" finished-at="2025-09-04T20:56:38 EEST" duration-ms="1001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smallPause -->
+        <test-method signature="editDayShiftToDayShift2()[pri:5, instance:Job_Module.WorkShiftsTest@10683d9d]" started-at="2025-09-04T20:56:38 EEST" name="editDayShiftToDayShift2" description="TC-18 Verify Admin can edit an existing Work Shift" finished-at="2025-09-04T20:56:42 EEST" duration-ms="3892" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editDayShiftToDayShift2 -->
+        <test-method is-config="true" signature="cleanup()[pri:0, instance:Job_Module.WorkShiftsTest@10683d9d]" started-at="2025-09-04T20:56:42 EEST" name="cleanup" finished-at="2025-09-04T20:56:46 EEST" duration-ms="4219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+        <test-method is-config="true" signature="smallPause()[pri:0, instance:Job_Module.WorkShiftsTest@10683d9d]" started-at="2025-09-04T20:56:46 EEST" name="smallPause" finished-at="2025-09-04T20:56:47 EEST" duration-ms="1001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smallPause -->
+        <test-method signature="deleteSingleWorkShift()[pri:6, instance:Job_Module.WorkShiftsTest@10683d9d]" started-at="2025-09-04T20:56:47 EEST" name="deleteSingleWorkShift" description="TC-19 Verify Admin can delete an existing Work Shift" finished-at="2025-09-04T20:56:48 EEST" duration-ms="1023" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteSingleWorkShift -->
+        <test-method is-config="true" signature="cleanup()[pri:0, instance:Job_Module.WorkShiftsTest@10683d9d]" started-at="2025-09-04T20:56:48 EEST" name="cleanup" finished-at="2025-09-04T20:56:59 EEST" duration-ms="10334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+        <test-method is-config="true" signature="smallPause()[pri:0, instance:Job_Module.WorkShiftsTest@10683d9d]" started-at="2025-09-04T20:56:59 EEST" name="smallPause" finished-at="2025-09-04T20:57:00 EEST" duration-ms="1002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smallPause -->
+        <test-method signature="deleteMultipleWorkShifts()[pri:7, instance:Job_Module.WorkShiftsTest@10683d9d]" started-at="2025-09-04T20:57:00 EEST" name="deleteMultipleWorkShifts" description="TC-20 Verify Admin can delete multiple Work Shifts at the same time" finished-at="2025-09-04T20:57:02 EEST" duration-ms="1936" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteMultipleWorkShifts -->
+        <test-method is-config="true" signature="cleanup()[pri:0, instance:Job_Module.WorkShiftsTest@10683d9d]" started-at="2025-09-04T20:57:02 EEST" name="cleanup" finished-at="2025-09-04T20:57:12 EEST" duration-ms="10326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+        <test-method is-config="true" signature="smallPause()[pri:0, instance:Job_Module.WorkShiftsTest@10683d9d]" started-at="2025-09-04T20:57:12 EEST" name="smallPause" finished-at="2025-09-04T20:57:13 EEST" duration-ms="1002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smallPause -->
+      </class> <!-- Job_Module.WorkShiftsTest -->
+      <class name="User_Management_Module.UserManagementTest">
+        <test-method is-config="true" signature="setUpPage()[pri:0, instance:User_Management_Module.UserManagementTest@7e6f74c]" started-at="2025-09-04T20:51:11 EEST" name="setUpPage" finished-at="2025-09-04T20:51:11 EEST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPage -->
+        <test-method signature="addUser()[pri:1, instance:User_Management_Module.UserManagementTest@7e6f74c]" started-at="2025-09-04T20:51:11 EEST" name="addUser" description="TC-06 Create user (admin/ess) with valid data" finished-at="2025-09-04T20:51:30 EEST" duration-ms="19256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addUser -->
+        <test-method signature="searchUser()[pri:2, instance:User_Management_Module.UserManagementTest@7e6f74c]" started-at="2025-09-04T20:51:30 EEST" name="searchUser" description="TC-05 Verify search works correctly" finished-at="2025-09-04T20:51:32 EEST" duration-ms="1748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchUser -->
+        <test-method is-config="true" signature="setUpPage()[pri:0, instance:User_Management_Module.UserManagementTest@7e6f74c]" started-at="2025-09-04T20:51:30 EEST" name="setUpPage" finished-at="2025-09-04T20:51:30 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPage -->
+        <test-method signature="checkUniqeUserName()[pri:3, instance:User_Management_Module.UserManagementTest@7e6f74c]" started-at="2025-09-04T20:51:32 EEST" name="checkUniqeUserName" description="TC-07 Create user (admin/ess) with existing username" finished-at="2025-09-04T20:51:34 EEST" duration-ms="2697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkUniqeUserName -->
+        <test-method is-config="true" signature="setUpPage()[pri:0, instance:User_Management_Module.UserManagementTest@7e6f74c]" started-at="2025-09-04T20:51:32 EEST" name="setUpPage" finished-at="2025-09-04T20:51:32 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPage -->
+        <test-method signature="checkPassword()[pri:4, instance:User_Management_Module.UserManagementTest@7e6f74c]" started-at="2025-09-04T20:51:34 EEST" name="checkPassword" description="TC-08 Verify password and confirm password match" finished-at="2025-09-04T20:51:35 EEST" duration-ms="617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPassword -->
+        <test-method is-config="true" signature="setUpPage()[pri:0, instance:User_Management_Module.UserManagementTest@7e6f74c]" started-at="2025-09-04T20:51:34 EEST" name="setUpPage" finished-at="2025-09-04T20:51:34 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPage -->
+        <test-method is-config="true" signature="setUpPage()[pri:0, instance:User_Management_Module.UserManagementTest@7e6f74c]" started-at="2025-09-04T20:51:35 EEST" name="setUpPage" finished-at="2025-09-04T20:51:35 EEST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPage -->
+        <test-method signature="checkRequiredFields()[pri:5, instance:User_Management_Module.UserManagementTest@7e6f74c]" started-at="2025-09-04T20:51:35 EEST" name="checkRequiredFields" description="TC-09 Verify required fields" finished-at="2025-09-04T20:51:36 EEST" duration-ms="1255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkRequiredFields -->
+        <test-method signature="deleteUser()[pri:6, instance:User_Management_Module.UserManagementTest@7e6f74c]" started-at="2025-09-04T20:51:36 EEST" name="deleteUser" description="TC-10 Verify that the delete works correctly" finished-at="2025-09-04T20:51:43 EEST" duration-ms="6781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+        <test-method is-config="true" signature="setUpPage()[pri:0, instance:User_Management_Module.UserManagementTest@7e6f74c]" started-at="2025-09-04T20:51:36 EEST" name="setUpPage" finished-at="2025-09-04T20:51:36 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPage -->
+        <test-method signature="editUser()[pri:7, instance:User_Management_Module.UserManagementTest@7e6f74c]" started-at="2025-09-04T20:51:43 EEST" name="editUser" description="TC-12 Verify that the edit works correctly" finished-at="2025-09-04T20:51:56 EEST" duration-ms="12807" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editUser -->
+        <test-method is-config="true" signature="setUpPage()[pri:0, instance:User_Management_Module.UserManagementTest@7e6f74c]" started-at="2025-09-04T20:51:43 EEST" name="setUpPage" finished-at="2025-09-04T20:51:43 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPage -->
+        <test-method is-config="true" signature="setUpPage()[pri:0, instance:User_Management_Module.UserManagementTest@7e6f74c]" started-at="2025-09-04T20:51:56 EEST" name="setUpPage" finished-at="2025-09-04T20:51:56 EEST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPage -->
+        <test-method signature="deleteAllUser()[pri:8, instance:User_Management_Module.UserManagementTest@7e6f74c]" started-at="2025-09-04T20:51:56 EEST" name="deleteAllUser" description="TC-11 Verify that the delete All useres Selected works correctly" finished-at="2025-09-04T20:52:01 EEST" duration-ms="5501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAllUser -->
+      </class> <!-- User_Management_Module.UserManagementTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

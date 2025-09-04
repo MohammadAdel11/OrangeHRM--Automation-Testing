@@ -1,0 +1,2514 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 8 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\moham\eclipse-workspace\ttttttt\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">73 methods, 8 failed,   65 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Organization_Module.OrganizationLOcationDeleteTest" class="method navigator-link" hash-for-method="ValidAddTest">ValidAddTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Organization_Module.OrganizationLocationsTest" class="method navigator-link" hash-for-method="ValidCitySearch">ValidCitySearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Organization_Module.OrganizationLocationsTest" class="method navigator-link" hash-for-method="ValidNameSearch">ValidNameSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Organization_Module.OrganizationLocationsTest" class="method navigator-link" hash-for-method="ValidSearch">ValidSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Job_Module.JobTitlesTest" class="method navigator-link" hash-for-method="deleteAllJobs">deleteAllJobs</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Organization_Module.OrganizationLocationAddTest" class="method navigator-link" hash-for-method="inValidAddTest">inValidAddTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Organization_Module.OrganizationLocationEditTest" class="method navigator-link" hash-for-method="inValidEditTest">inValidEditTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="QABootcamp_Maven.OrangeHRM.LogInTest" class="method navigator-link" hash-for-method="logIn(Admin, test123, Invalid credentials)">logIn(Admin, test123, Invalid credentials)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Organization_Module.OrganizationLOcationDeleteTest" class="method navigator-link" hash-for-method="CancelTest">CancelTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Organization_Module.OrganizationLocationEditTest" class="method navigator-link" hash-for-method="CancelTest">CancelTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Organization_Module.OrganizationLOcationDeleteTest" class="method navigator-link" hash-for-method="DeleteAllRecordsTest">DeleteAllRecordsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Organization_Module.OrganizationLOcationDeleteTest" class="method navigator-link" hash-for-method="DeleteMultipleTest">DeleteMultipleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Organization_Module.OrganizationLOcationDeleteTest" class="method navigator-link" hash-for-method="DeleteTest">DeleteTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Organization_Module.OrganizationLocationAddTest" class="method navigator-link" hash-for-method="DuplicateAddTest">DuplicateAddTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Organization_Module.OrganizationGeneralInfoTest" class="method navigator-link" hash-for-method="InvalidBlankEditTest">InvalidBlankEditTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Organization_Module.OrganizationGeneralInfoTest" class="method navigator-link" hash-for-method="InvalidEmailTest">InvalidEmailTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Organization_Module.OrganizationGeneralInfoTest" class="method navigator-link" hash-for-method="InvalidPhoneNumberTest">InvalidPhoneNumberTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Organization_Module.OrganizationGeneralInfoTest" class="method navigator-link" hash-for-method="OrganizationNameTest">OrganizationNameTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Organization_Module.OrganizationLocationsTest" class="method navigator-link" hash-for-method="ResetTest">ResetTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Organization_Module.OrganizationLocationAddTest" class="method navigator-link" hash-for-method="ValidAddTest">ValidAddTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Organization_Module.OrganizationLocationsTest" class="method navigator-link" hash-for-method="ValidAddTest">ValidAddTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Organization_Module.OrganizationLOcationDeleteTest" class="method navigator-link" hash-for-method="ValidAddTest2">ValidAddTest2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Organization_Module.OrganizationLocationEditTest" class="method navigator-link" hash-for-method="ValidEditTest">ValidEditTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Job_Module.JobTitlesTest" class="method navigator-link" hash-for-method="addJobTitle">addJobTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Job_Module.WorkShiftsTest" class="method navigator-link" hash-for-method="addOvernightWorkShift_bugShowsError">addOvernightWorkShift_bugShowsError</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Job_Module.PayGradesTest" class="method navigator-link" hash-for-method="addPayGrade">addPayGrade</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="User_Management_Module.UserManagementTest" class="method navigator-link" hash-for-method="addUser">addUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Job_Module.WorkShiftsTest" class="method navigator-link" hash-for-method="addValidWorkShift">addValidWorkShift</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="PIM_Module.AddEmployeeTest" class="method navigator-link" hash-for-method="cancelAddEmployeeTest">cancelAddEmployeeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Job_Module.WorkShiftsTest" class="method navigator-link" hash-for-method="cannotAddDuplicateName">cannotAddDuplicateName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Job_Module.WorkShiftsTest" class="method navigator-link" hash-for-method="cannotAddWithMissingMandatoryFields">cannotAddWithMissingMandatoryFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="User_Management_Module.UserManagementTest" class="method navigator-link" hash-for-method="checkPassword">checkPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Job_Module.JobTitlesTest" class="method navigator-link" hash-for-method="checkRequiredFields">checkRequiredFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Job_Module.PayGradesTest" class="method navigator-link" hash-for-method="checkRequiredFields">checkRequiredFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="User_Management_Module.UserManagementTest" class="method navigator-link" hash-for-method="checkRequiredFields">checkRequiredFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="User_Management_Module.UserManagementTest" class="method navigator-link" hash-for-method="checkUniqeUserName">checkUniqeUserName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Job_Module.PayGradesTest" class="method navigator-link" hash-for-method="deleteAllCurrencies">deleteAllCurrencies</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Job_Module.PayGradesTest" class="method navigator-link" hash-for-method="deleteAllPayGrades">deleteAllPayGrades</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="User_Management_Module.UserManagementTest" class="method navigator-link" hash-for-method="deleteAllUser">deleteAllUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Job_Module.JobTitlesTest" class="method navigator-link" hash-for-method="deleteJob">deleteJob</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Job_Module.WorkShiftsTest" class="method navigator-link" hash-for-method="deleteMultipleWorkShifts">deleteMultipleWorkShifts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Job_Module.PayGradesTest" class="method navigator-link" hash-for-method="deleteOneCurrency">deleteOneCurrency</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Job_Module.PayGradesTest" class="method navigator-link" hash-for-method="deleteOnePayGrade">deleteOnePayGrade</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Job_Module.WorkShiftsTest" class="method navigator-link" hash-for-method="deleteSingleWorkShift">deleteSingleWorkShift</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="User_Management_Module.UserManagementTest" class="method navigator-link" hash-for-method="deleteUser">deleteUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Job_Module.PayGradesTest" class="method navigator-link" hash-for-method="editCurrencyDetails">editCurrencyDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Job_Module.WorkShiftsTest" class="method navigator-link" hash-for-method="editDayShiftToDayShift2">editDayShiftToDayShift2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Job_Module.JobTitlesTest" class="method navigator-link" hash-for-method="editJobTitle">editJobTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Job_Module.PayGradesTest" class="method navigator-link" hash-for-method="editPayGradeName">editPayGradeName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="User_Management_Module.UserManagementTest" class="method navigator-link" hash-for-method="editUser">editUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Organization_Module.OrganizationLocationsTest" class="method navigator-link" hash-for-method="inValidSearch">inValidSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="PIM_Module.AddEmployeeTest" class="method navigator-link" hash-for-method="invalidAddEmployeeWithBlankFields">invalidAddEmployeeWithBlankFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="PIM_Module.AddEmployeeTest" class="method navigator-link" hash-for-method="invalidAddEmployeeWithTooLargeData">invalidAddEmployeeWithTooLargeData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="QABootcamp_Maven.OrangeHRM.LogInTest" class="method navigator-link" hash-for-method="logIn(, , Invalid credentials)">logIn(, , Invalid credentials)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="QABootcamp_Maven.OrangeHRM.LogInTest" class="method navigator-link" hash-for-method="logIn(test, admin123, Invalid credentials)">logIn(test, admin123, Invalid credentials)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="QABootcamp_Maven.OrangeHRM.LogInTest" class="method navigator-link" hash-for-method="logIn(Admin, admin123, Dashboard)">logIn(Admin, admin123, Dashboard)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="User_Management_Module.UserManagementTest" class="method navigator-link" hash-for-method="searchUser">searchUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Job_Module.EmploymentStatusTest" class="method navigator-link" hash-for-method="testAddEmploymentStatus">testAddEmploymentStatus</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Job_Module.JobCategoriesTest" class="method navigator-link" hash-for-method="testAddJobCategoryValidInput">testAddJobCategoryValidInput</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Job_Module.EmploymentStatusTest" class="method navigator-link" hash-for-method="testDeleteMultipleEmploymentStatuses">testDeleteMultipleEmploymentStatuses</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Job_Module.JobCategoriesTest" class="method navigator-link" hash-for-method="testDeleteMultipleJobCategories">testDeleteMultipleJobCategories</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Job_Module.EmploymentStatusTest" class="method navigator-link" hash-for-method="testDeleteSingleEmploymentStatus">testDeleteSingleEmploymentStatus</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Job_Module.JobCategoriesTest" class="method navigator-link" hash-for-method="testDeleteSingleJobCategory">testDeleteSingleJobCategory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Job_Module.EmploymentStatusTest" class="method navigator-link" hash-for-method="testDuplicateEmploymentStatusNotAllowed">testDuplicateEmploymentStatusNotAllowed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Job_Module.JobCategoriesTest" class="method navigator-link" hash-for-method="testDuplicateJobCategoryNotAllowed">testDuplicateJobCategoryNotAllowed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Job_Module.EmploymentStatusTest" class="method navigator-link" hash-for-method="testEditEmploymentStatus">testEditEmploymentStatus</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Job_Module.JobCategoriesTest" class="method navigator-link" hash-for-method="testEditJobCategory">testEditJobCategory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Job_Module.EmploymentStatusTest" class="method navigator-link" hash-for-method="testEmploymentStatusFieldCannotBeBlank">testEmploymentStatusFieldCannotBeBlank</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Job_Module.JobCategoriesTest" class="method navigator-link" hash-for-method="testJobCategoryFieldCannotBeBlank">testJobCategoryFieldCannotBeBlank</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Job_Module.JobCategoriesTest" class="method navigator-link" hash-for-method="testSpecialCharactersInJobCategory">testSpecialCharactersInJobCategory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="PIM_Module.AddEmployeeTest" class="method navigator-link" hash-for-method="validAddEmployee">validAddEmployee</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Job_Module.PayGradesTest" class="method navigator-link" hash-for-method="verifyInvalidSalaryWarning">verifyInvalidSalaryWarning</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Job_Module.PayGradesTest" class="method navigator-link" hash-for-method="verifyNegativeSalaryWarning">verifyNegativeSalaryWarning</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">QABootcamp_Maven.OrangeHRM.LogInTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="logIn(Admin, test123, Invalid credentials)">
+                  </a> <!-- logIn(Admin, test123, Invalid credentials) -->
+                  <span class="method-name">logIn</span>
+                  <span class="parameters">(Admin,test123,Invalid credentials)</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.name: username (tried for 2 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;24.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.155, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\moham\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65104}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65104/devtoo..., se:cdpVersion: 139.0.7258.155, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 309f0a6af118b67d02b86eab03329850
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at QABootcamp_Maven.OrangeHRM.LogIn.enterUserName(LogIn.java:24)
+	at QABootcamp_Maven.OrangeHRM.LogIn.Login(LogIn.java:52)
+	at QABootcamp_Maven.OrangeHRM.LogInTest.logIn(LogInTest.java:24)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Job_Module.JobTitlesTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteAllJobs">
+                  </a> <!-- deleteAllJobs -->
+                  <span class="method-name">deleteAllJobs</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: (//div[@class=&apos;oxd-checkbox-wrapper&apos;])[1] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;24.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.155, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\moham\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65104}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65104/devtoo..., se:cdpVersion: 139.0.7258.155, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 309f0a6af118b67d02b86eab03329850
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at Job_Module.JobTitles.deleteAllUsers(JobTitles.java:169)
+	at Job_Module.JobTitlesTest.deleteAllJobs(JobTitlesTest.java:51)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(TC-16 Verify that the delete All useres Selected works correctly)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Organization_Module.OrganizationLocationEditTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="inValidEditTest">
+                  </a> <!-- inValidEditTest -->
+                  <span class="method-name">inValidEditTest</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button data-v-10d463b7=&quot;&quot; type=&quot;submit&quot; class=&quot;oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space&quot;&gt;...&lt;/button&gt; is not clickable at point (1402, 676). Other element would receive the click: &lt;div data-v-d130bb63=&quot;&quot; data-v-13cf171c=&quot;&quot; role=&quot;option&quot; class=&quot;oxd-select-option&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=139.0.7258.155)
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;24.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [309f0a6af118b67d02b86eab03329850, clickElement {id=f.C721154D6E48D29BE12FAB0F3E6A97A0.d.F44DF734F91D8EC5B814633E97A789EB.e.4903}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.155, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\moham\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65104}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65104/devtoo..., se:cdpVersion: 139.0.7258.155, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (309f0a6af118b67d02b86eab03329850)] -&gt; xpath: //button[@type=&apos;submit&apos;]]
+Session ID: 309f0a6af118b67d02b86eab03329850
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at Organization_Module.OrganizationLocationsEdit.ClickSave(OrganizationLocationsEdit.java:115)
+	at Organization_Module.OrganizationLocationEditTest.inValidEditTest(OrganizationLocationEditTest.java:31)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify Edit Location with blank required fields)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Organization_Module.OrganizationLOcationDeleteTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidAddTest">
+                  </a> <!-- ValidAddTest -->
+                  <span class="method-name">ValidAddTest</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@id=&apos;oxd-toaster_1&apos;] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;24.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.155, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\moham\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65104}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65104/devtoo..., se:cdpVersion: 139.0.7258.155, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 309f0a6af118b67d02b86eab03329850
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at Organization_Module.OrganizationLocations.getSuccessMessage(OrganizationLocations.java:103)
+	at Organization_Module.OrganizationLOcationDeleteTest.ValidAddTest(OrganizationLOcationDeleteTest.java:58)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify Add valid Location)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Organization_Module.OrganizationLocationsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidCitySearch">
+                  </a> <!-- ValidCitySearch -->
+                  <span class="method-name">ValidCitySearch</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for number of elements found by By.cssSelector: div.oxd-table-body div.oxd-table-card to be more than &quot;0&quot;. Current number: &quot;0&quot; (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;24.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.155, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\moham\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65104}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65104/devtoo..., se:cdpVersion: 139.0.7258.155, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 309f0a6af118b67d02b86eab03329850
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at Organization_Module.LocationSearchReset.getRowCells(LocationSearchReset.java:75)
+	at Organization_Module.OrganizationLocationsTest.ValidCitySearch(OrganizationLocationsTest.java:51)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify Search with valid city)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidNameSearch">
+                  </a> <!-- ValidNameSearch -->
+                  <span class="method-name">ValidNameSearch</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	doesnt match expected [Cairo20] but found []
+	at Organization_Module.OrganizationLocationsTest.ValidNameSearch(OrganizationLocationsTest.java:43)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify Search with valid name)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidSearch">
+                  </a> <!-- ValidSearch -->
+                  <span class="method-name">ValidSearch</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for number of elements found by By.cssSelector: div.oxd-table-body div.oxd-table-card to be more than &quot;0&quot;. Current number: &quot;0&quot; (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;24.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.155, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\moham\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65104}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65104/devtoo..., se:cdpVersion: 139.0.7258.155, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 309f0a6af118b67d02b86eab03329850
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at Organization_Module.LocationSearchReset.getRowCells(LocationSearchReset.java:75)
+	at Organization_Module.OrganizationLocationsTest.ValidSearch(OrganizationLocationsTest.java:63)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify Search with valid data )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Organization_Module.OrganizationLocationAddTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="inValidAddTest">
+                  </a> <!-- inValidAddTest -->
+                  <span class="method-name">inValidAddTest</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button data-v-10d463b7=&quot;&quot; type=&quot;submit&quot; class=&quot;oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space&quot;&gt;...&lt;/button&gt; is not clickable at point (1402, 676). Other element would receive the click: &lt;div data-v-d130bb63=&quot;&quot; data-v-13cf171c=&quot;&quot; role=&quot;option&quot; class=&quot;oxd-select-option&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=139.0.7258.155)
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;24.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [309f0a6af118b67d02b86eab03329850, clickElement {id=f.C721154D6E48D29BE12FAB0F3E6A97A0.d.C2B65DE2B0B3CA6DAFABDA171831E221.e.2717}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.155, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\moham\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65104}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65104/devtoo..., se:cdpVersion: 139.0.7258.155, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (309f0a6af118b67d02b86eab03329850)] -&gt; xpath: //button[@type=&apos;submit&apos;]]
+Session ID: 309f0a6af118b67d02b86eab03329850
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at Organization_Module.OrganizationLocations.SaveAdd(OrganizationLocations.java:95)
+	at Organization_Module.OrganizationLocationAddTest.inValidAddTest(OrganizationLocationAddTest.java:43)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify Add invalid Location blank required fields)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Job_Module.WorkShiftsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addOvernightWorkShift_bugShowsError">
+                  </a> <!-- addOvernightWorkShift_bugShowsError -->
+                  <span class="method-name">addOvernightWorkShift_bugShowsError</span>
+                  <em>
+(TC-15 Verify Admin can add an overnight Work Shift )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addValidWorkShift">
+                  </a> <!-- addValidWorkShift -->
+                  <span class="method-name">addValidWorkShift</span>
+                  <em>
+(TC-14 Verify Admin can add a new Work Shift with valid details)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cannotAddDuplicateName">
+                  </a> <!-- cannotAddDuplicateName -->
+                  <span class="method-name">cannotAddDuplicateName</span>
+                  <em>
+(TC-17 Verify Admin cannot add Work Shift with duplicate name)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cannotAddWithMissingMandatoryFields">
+                  </a> <!-- cannotAddWithMissingMandatoryFields -->
+                  <span class="method-name">cannotAddWithMissingMandatoryFields</span>
+                  <em>
+(TC-16 Verify Admin cannot add Work Shift with missing mandatory fields)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteMultipleWorkShifts">
+                  </a> <!-- deleteMultipleWorkShifts -->
+                  <span class="method-name">deleteMultipleWorkShifts</span>
+                  <em>
+(TC-20 Verify Admin can delete multiple Work Shifts at the same time)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteSingleWorkShift">
+                  </a> <!-- deleteSingleWorkShift -->
+                  <span class="method-name">deleteSingleWorkShift</span>
+                  <em>
+(TC-19 Verify Admin can delete an existing Work Shift)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editDayShiftToDayShift2">
+                  </a> <!-- editDayShiftToDayShift2 -->
+                  <span class="method-name">editDayShiftToDayShift2</span>
+                  <em>
+(TC-18 Verify Admin can edit an existing Work Shift)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">PIM_Module.AddEmployeeTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="cancelAddEmployeeTest">
+                  </a> <!-- cancelAddEmployeeTest -->
+                  <span class="method-name">cancelAddEmployeeTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidAddEmployeeWithBlankFields">
+                  </a> <!-- invalidAddEmployeeWithBlankFields -->
+                  <span class="method-name">invalidAddEmployeeWithBlankFields</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidAddEmployeeWithTooLargeData">
+                  </a> <!-- invalidAddEmployeeWithTooLargeData -->
+                  <span class="method-name">invalidAddEmployeeWithTooLargeData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validAddEmployee">
+                  </a> <!-- validAddEmployee -->
+                  <span class="method-name">validAddEmployee</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">User_Management_Module.UserManagementTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addUser">
+                  </a> <!-- addUser -->
+                  <span class="method-name">addUser</span>
+                  <em>
+(TC-06 Create user (admin/ess) with valid data)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkPassword">
+                  </a> <!-- checkPassword -->
+                  <span class="method-name">checkPassword</span>
+                  <em>
+(TC-08 Verify password and confirm password match)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkRequiredFields">
+                  </a> <!-- checkRequiredFields -->
+                  <span class="method-name">checkRequiredFields</span>
+                  <em>
+(TC-09 Verify required fields)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkUniqeUserName">
+                  </a> <!-- checkUniqeUserName -->
+                  <span class="method-name">checkUniqeUserName</span>
+                  <em>
+(TC-07 Create user (admin/ess) with existing username)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteAllUser">
+                  </a> <!-- deleteAllUser -->
+                  <span class="method-name">deleteAllUser</span>
+                  <em>
+(TC-11 Verify that the delete All useres Selected works correctly)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteUser">
+                  </a> <!-- deleteUser -->
+                  <span class="method-name">deleteUser</span>
+                  <em>
+(TC-10 Verify that the delete works correctly)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editUser">
+                  </a> <!-- editUser -->
+                  <span class="method-name">editUser</span>
+                  <em>
+(TC-12 Verify that the edit works correctly)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchUser">
+                  </a> <!-- searchUser -->
+                  <span class="method-name">searchUser</span>
+                  <em>
+(TC-05 Verify search works correctly)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">QABootcamp_Maven.OrangeHRM.LogInTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="logIn(, , Invalid credentials)">
+                  </a> <!-- logIn(, , Invalid credentials) -->
+                  <span class="method-name">logIn</span>
+                  <span class="parameters">(,,Invalid credentials)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logIn(test, admin123, Invalid credentials)">
+                  </a> <!-- logIn(test, admin123, Invalid credentials) -->
+                  <span class="method-name">logIn</span>
+                  <span class="parameters">(test,admin123,Invalid credentials)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logIn(Admin, admin123, Dashboard)">
+                  </a> <!-- logIn(Admin, admin123, Dashboard) -->
+                  <span class="method-name">logIn</span>
+                  <span class="parameters">(Admin,admin123,Dashboard)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Job_Module.PayGradesTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addPayGrade">
+                  </a> <!-- addPayGrade -->
+                  <span class="method-name">addPayGrade</span>
+                  <em>
+(TC-18+19 Add valid pay grade+Add currency to pay grade)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkRequiredFields">
+                  </a> <!-- checkRequiredFields -->
+                  <span class="method-name">checkRequiredFields</span>
+                  <em>
+(TC-02 Verify required field validation on Add Pay Grade)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteAllCurrencies">
+                  </a> <!-- deleteAllCurrencies -->
+                  <span class="method-name">deleteAllCurrencies</span>
+                  <em>
+(TC-23 Delete all currencies)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteAllPayGrades">
+                  </a> <!-- deleteAllPayGrades -->
+                  <span class="method-name">deleteAllPayGrades</span>
+                  <em>
+(TC-25 Delete all grades)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteOneCurrency">
+                  </a> <!-- deleteOneCurrency -->
+                  <span class="method-name">deleteOneCurrency</span>
+                  <em>
+(TC-22 Delete single currency)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteOnePayGrade">
+                  </a> <!-- deleteOnePayGrade -->
+                  <span class="method-name">deleteOnePayGrade</span>
+                  <em>
+(TC-24 Delete entire pay grade)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editCurrencyDetails">
+                  </a> <!-- editCurrencyDetails -->
+                  <span class="method-name">editCurrencyDetails</span>
+                  <em>
+(TC-27 Edit Currency Min/Max values)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editPayGradeName">
+                  </a> <!-- editPayGradeName -->
+                  <span class="method-name">editPayGradeName</span>
+                  <em>
+(TC-09 Edit Pay Grade name)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyInvalidSalaryWarning">
+                  </a> <!-- verifyInvalidSalaryWarning -->
+                  <span class="method-name">verifyInvalidSalaryWarning</span>
+                  <em>
+(TC-20 Max smaller than Min salary )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyNegativeSalaryWarning">
+                  </a> <!-- verifyNegativeSalaryWarning -->
+                  <span class="method-name">verifyNegativeSalaryWarning</span>
+                  <em>
+(TC-21 Negative salary values)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Organization_Module.OrganizationGeneralInfoTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="InvalidBlankEditTest">
+                  </a> <!-- InvalidBlankEditTest -->
+                  <span class="method-name">InvalidBlankEditTest</span>
+                  <em>
+(Verify admin can edit general information by leave required field empty)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="InvalidEmailTest">
+                  </a> <!-- InvalidEmailTest -->
+                  <span class="method-name">InvalidEmailTest</span>
+                  <em>
+(Verify invalidEmail)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="InvalidPhoneNumberTest">
+                  </a> <!-- InvalidPhoneNumberTest -->
+                  <span class="method-name">InvalidPhoneNumberTest</span>
+                  <em>
+(Verify invalid phone Number)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="OrganizationNameTest">
+                  </a> <!-- OrganizationNameTest -->
+                  <span class="method-name">OrganizationNameTest</span>
+                  <em>
+(Verify edit organizationName)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Organization_Module.OrganizationLocationAddTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="DuplicateAddTest">
+                  </a> <!-- DuplicateAddTest -->
+                  <span class="method-name">DuplicateAddTest</span>
+                  <em>
+(Verify Add duplicate Location)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidAddTest">
+                  </a> <!-- ValidAddTest -->
+                  <span class="method-name">ValidAddTest</span>
+                  <em>
+(Verify Add valid Location)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Job_Module.JobCategoriesTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddJobCategoryValidInput">
+                  </a> <!-- testAddJobCategoryValidInput -->
+                  <span class="method-name">testAddJobCategoryValidInput</span>
+                  <em>
+(TC-07 Verify that a Job category can be added successfully with valid input)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteMultipleJobCategories">
+                  </a> <!-- testDeleteMultipleJobCategories -->
+                  <span class="method-name">testDeleteMultipleJobCategories</span>
+                  <em>
+(TC-12 Verify multiple job categories can be deleted Simultaneously)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteSingleJobCategory">
+                  </a> <!-- testDeleteSingleJobCategory -->
+                  <span class="method-name">testDeleteSingleJobCategory</span>
+                  <em>
+(TC-11 Verify a job category can be deleted individually)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDuplicateJobCategoryNotAllowed">
+                  </a> <!-- testDuplicateJobCategoryNotAllowed -->
+                  <span class="method-name">testDuplicateJobCategoryNotAllowed</span>
+                  <em>
+(TC-09 Verify the system does not allow adding duplicate job categories)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEditJobCategory">
+                  </a> <!-- testEditJobCategory -->
+                  <span class="method-name">testEditJobCategory</span>
+                  <em>
+(TC-10 Verify an admin can edit an existing job category)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testJobCategoryFieldCannotBeBlank">
+                  </a> <!-- testJobCategoryFieldCannotBeBlank -->
+                  <span class="method-name">testJobCategoryFieldCannotBeBlank</span>
+                  <em>
+(TC-08 Verify system behavior when trying to add a Job Category without entering any data)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSpecialCharactersInJobCategory">
+                  </a> <!-- testSpecialCharactersInJobCategory -->
+                  <span class="method-name">testSpecialCharactersInJobCategory</span>
+                  <em>
+(TC-13 Verify if special characters are allowed or restricted in job category name)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Job_Module.JobTitlesTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addJobTitle">
+                  </a> <!-- addJobTitle -->
+                  <span class="method-name">addJobTitle</span>
+                  <em>
+(TC-13 Add valid job title)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkRequiredFields">
+                  </a> <!-- checkRequiredFields -->
+                  <span class="method-name">checkRequiredFields</span>
+                  <em>
+(TC-14 Verify required fields)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteJob">
+                  </a> <!-- deleteJob -->
+                  <span class="method-name">deleteJob</span>
+                  <em>
+(TC-15 Verify that the delete works correctly)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editJobTitle">
+                  </a> <!-- editJobTitle -->
+                  <span class="method-name">editJobTitle</span>
+                  <em>
+(TC-17 Edit Job Title works correctly)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Organization_Module.OrganizationLocationEditTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CancelTest">
+                  </a> <!-- CancelTest -->
+                  <span class="method-name">CancelTest</span>
+                  <em>
+(Verify Cancel Button is clickable)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidEditTest">
+                  </a> <!-- ValidEditTest -->
+                  <span class="method-name">ValidEditTest</span>
+                  <em>
+(Verify Update valid Location)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Organization_Module.OrganizationLOcationDeleteTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CancelTest">
+                  </a> <!-- CancelTest -->
+                  <span class="method-name">CancelTest</span>
+                  <em>
+(Verify Cancel Button)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DeleteAllRecordsTest">
+                  </a> <!-- DeleteAllRecordsTest -->
+                  <span class="method-name">DeleteAllRecordsTest</span>
+                  <em>
+(Verify Delete All Records)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DeleteMultipleTest">
+                  </a> <!-- DeleteMultipleTest -->
+                  <span class="method-name">DeleteMultipleTest</span>
+                  <em>
+(Verify Delete multiple record)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DeleteTest">
+                  </a> <!-- DeleteTest -->
+                  <span class="method-name">DeleteTest</span>
+                  <em>
+(Verify Delete recored)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidAddTest2">
+                  </a> <!-- ValidAddTest2 -->
+                  <span class="method-name">ValidAddTest2</span>
+                  <em>
+(Verify Add valid Location)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Organization_Module.OrganizationLocationsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ResetTest">
+                  </a> <!-- ResetTest -->
+                  <span class="method-name">ResetTest</span>
+                  <em>
+(Verify reset button)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidAddTest">
+                  </a> <!-- ValidAddTest -->
+                  <span class="method-name">ValidAddTest</span>
+                  <em>
+(Verify Add valid Location)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="inValidSearch">
+                  </a> <!-- inValidSearch -->
+                  <span class="method-name">inValidSearch</span>
+                  <em>
+(Verify Search with invalid data )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Job_Module.EmploymentStatusTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddEmploymentStatus">
+                  </a> <!-- testAddEmploymentStatus -->
+                  <span class="method-name">testAddEmploymentStatus</span>
+                  <em>
+(TC-01 Verify that Admin can successfully add a new employment status)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteMultipleEmploymentStatuses">
+                  </a> <!-- testDeleteMultipleEmploymentStatuses -->
+                  <span class="method-name">testDeleteMultipleEmploymentStatuses</span>
+                  <em>
+(TC-05 Verify that multiple employment status can be deleted at the same time)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteSingleEmploymentStatus">
+                  </a> <!-- testDeleteSingleEmploymentStatus -->
+                  <span class="method-name">testDeleteSingleEmploymentStatus</span>
+                  <em>
+(TC-04 Verify that a single employment status can be deleted)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDuplicateEmploymentStatusNotAllowed">
+                  </a> <!-- testDuplicateEmploymentStatusNotAllowed -->
+                  <span class="method-name">testDuplicateEmploymentStatusNotAllowed</span>
+                  <em>
+(TC-06 Verify that the system does not allow adding duplicate employment status)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEditEmploymentStatus">
+                  </a> <!-- testEditEmploymentStatus -->
+                  <span class="method-name">testEditEmploymentStatus</span>
+                  <em>
+(TC-03 Verify that admin can edit an existing employment status)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEmploymentStatusFieldCannotBeBlank">
+                  </a> <!-- testEmploymentStatusFieldCannotBeBlank -->
+                  <span class="method-name">testEmploymentStatusFieldCannotBeBlank</span>
+                  <em>
+(TC-02 Verify That Employment Status field cannot be left blank during creation)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\moham\eclipse-workspace\ttttttt\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;QABootcamp_Maven.OrangeHRM.LogInTest&quot;/&gt;
+      &lt;class name=&quot;User_Management_Module.UserManagementTest&quot;/&gt;
+      &lt;class name=&quot;Job_Module.JobTitlesTest&quot;/&gt;
+      &lt;class name=&quot;Job_Module.PayGradesTest&quot;/&gt;
+      &lt;class name=&quot;Job_Module.EmploymentStatusTest&quot;/&gt;
+      &lt;class name=&quot;Job_Module.JobCategoriesTest&quot;/&gt;
+      &lt;class name=&quot;Job_Module.WorkShiftsTest&quot;/&gt;
+      &lt;class name=&quot;Organization_Module.OrganizationGeneralInfoTest&quot;/&gt;
+      &lt;class name=&quot;Organization_Module.OrganizationLocationAddTest&quot;/&gt;
+      &lt;class name=&quot;Organization_Module.OrganizationLocationsTest&quot;/&gt;
+      &lt;class name=&quot;Organization_Module.OrganizationLocationEditTest&quot;/&gt;
+      &lt;class name=&quot;Organization_Module.OrganizationLOcationDeleteTest&quot;/&gt;
+      &lt;class name=&quot;PIM_Module.AddEmployeeTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (13 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(73);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'deleteAllJobs')
+data.setCell(0, 2, 'Job_Module.JobTitlesTest')
+data.setCell(0, 3, 24291);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'ValidSearch')
+data.setCell(1, 2, 'Organization_Module.OrganizationLocationsTest')
+data.setCell(1, 3, 20294);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'addUser')
+data.setCell(2, 2, 'User_Management_Module.UserManagementTest')
+data.setCell(2, 3, 19256);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'ValidAddTest')
+data.setCell(3, 2, 'Organization_Module.OrganizationLOcationDeleteTest')
+data.setCell(3, 3, 18840);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'inValidEditTest')
+data.setCell(4, 2, 'Organization_Module.OrganizationLocationEditTest')
+data.setCell(4, 3, 14619);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'ValidCitySearch')
+data.setCell(5, 2, 'Organization_Module.OrganizationLocationsTest')
+data.setCell(5, 3, 13745);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'inValidAddTest')
+data.setCell(6, 2, 'Organization_Module.OrganizationLocationAddTest')
+data.setCell(6, 3, 13522);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'inValidSearch')
+data.setCell(7, 2, 'Organization_Module.OrganizationLocationsTest')
+data.setCell(7, 3, 13325);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'editUser')
+data.setCell(8, 2, 'User_Management_Module.UserManagementTest')
+data.setCell(8, 3, 12807);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'DeleteMultipleTest')
+data.setCell(9, 2, 'Organization_Module.OrganizationLOcationDeleteTest')
+data.setCell(9, 3, 12012);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'addJobTitle')
+data.setCell(10, 2, 'Job_Module.JobTitlesTest')
+data.setCell(10, 3, 11550);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'deleteOneCurrency')
+data.setCell(11, 2, 'Job_Module.PayGradesTest')
+data.setCell(11, 3, 10940);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'ValidEditTest')
+data.setCell(12, 2, 'Organization_Module.OrganizationLocationEditTest')
+data.setCell(12, 3, 10847);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'addPayGrade')
+data.setCell(13, 2, 'Job_Module.PayGradesTest')
+data.setCell(13, 3, 10704);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'ValidAddTest')
+data.setCell(14, 2, 'Organization_Module.OrganizationLocationsTest')
+data.setCell(14, 3, 10164);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'ResetTest')
+data.setCell(15, 2, 'Organization_Module.OrganizationLocationsTest')
+data.setCell(15, 3, 9756);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'ValidAddTest2')
+data.setCell(16, 2, 'Organization_Module.OrganizationLOcationDeleteTest')
+data.setCell(16, 3, 9750);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testDuplicateEmploymentStatusNotAllowed')
+data.setCell(17, 2, 'Job_Module.EmploymentStatusTest')
+data.setCell(17, 3, 9701);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'ValidAddTest')
+data.setCell(18, 2, 'Organization_Module.OrganizationLocationAddTest')
+data.setCell(18, 3, 9381);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'DuplicateAddTest')
+data.setCell(19, 2, 'Organization_Module.OrganizationLocationAddTest')
+data.setCell(19, 3, 9182);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'deleteAllCurrencies')
+data.setCell(20, 2, 'Job_Module.PayGradesTest')
+data.setCell(20, 3, 8757);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'editJobTitle')
+data.setCell(21, 2, 'Job_Module.JobTitlesTest')
+data.setCell(21, 3, 8499);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'validAddEmployee')
+data.setCell(22, 2, 'PIM_Module.AddEmployeeTest')
+data.setCell(22, 3, 8010);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'editPayGradeName')
+data.setCell(23, 2, 'Job_Module.PayGradesTest')
+data.setCell(23, 3, 7717);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'addValidWorkShift')
+data.setCell(24, 2, 'Job_Module.WorkShiftsTest')
+data.setCell(24, 3, 7303);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'deleteUser')
+data.setCell(25, 2, 'User_Management_Module.UserManagementTest')
+data.setCell(25, 3, 6781);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'editCurrencyDetails')
+data.setCell(26, 2, 'Job_Module.PayGradesTest')
+data.setCell(26, 3, 6226);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'deleteOnePayGrade')
+data.setCell(27, 2, 'Job_Module.PayGradesTest')
+data.setCell(27, 3, 6170);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'deleteAllUser')
+data.setCell(28, 2, 'User_Management_Module.UserManagementTest')
+data.setCell(28, 3, 5501);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'testAddEmploymentStatus')
+data.setCell(29, 2, 'Job_Module.EmploymentStatusTest')
+data.setCell(29, 3, 5337);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'deleteJob')
+data.setCell(30, 2, 'Job_Module.JobTitlesTest')
+data.setCell(30, 3, 5027);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'testEditEmploymentStatus')
+data.setCell(31, 2, 'Job_Module.EmploymentStatusTest')
+data.setCell(31, 3, 4555);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'invalidAddEmployeeWithBlankFields')
+data.setCell(32, 2, 'PIM_Module.AddEmployeeTest')
+data.setCell(32, 3, 4488);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'cancelAddEmployeeTest')
+data.setCell(33, 2, 'PIM_Module.AddEmployeeTest')
+data.setCell(33, 3, 4467);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'checkRequiredFields')
+data.setCell(34, 2, 'Job_Module.JobTitlesTest')
+data.setCell(34, 3, 4129);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'verifyInvalidSalaryWarning')
+data.setCell(35, 2, 'Job_Module.PayGradesTest')
+data.setCell(35, 3, 4122);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'deleteAllPayGrades')
+data.setCell(36, 2, 'Job_Module.PayGradesTest')
+data.setCell(36, 3, 3950);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'ValidNameSearch')
+data.setCell(37, 2, 'Organization_Module.OrganizationLocationsTest')
+data.setCell(37, 3, 3909);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'editDayShiftToDayShift2')
+data.setCell(38, 2, 'Job_Module.WorkShiftsTest')
+data.setCell(38, 3, 3892);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'testEditJobCategory')
+data.setCell(39, 2, 'Job_Module.JobCategoriesTest')
+data.setCell(39, 3, 3792);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'invalidAddEmployeeWithTooLargeData')
+data.setCell(40, 2, 'PIM_Module.AddEmployeeTest')
+data.setCell(40, 3, 3673);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'DeleteAllRecordsTest')
+data.setCell(41, 2, 'Organization_Module.OrganizationLOcationDeleteTest')
+data.setCell(41, 3, 3392);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'testDeleteSingleEmploymentStatus')
+data.setCell(42, 2, 'Job_Module.EmploymentStatusTest')
+data.setCell(42, 3, 3338);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'testSpecialCharactersInJobCategory')
+data.setCell(43, 2, 'Job_Module.JobCategoriesTest')
+data.setCell(43, 3, 3312);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'testDuplicateJobCategoryNotAllowed')
+data.setCell(44, 2, 'Job_Module.JobCategoriesTest')
+data.setCell(44, 3, 3306);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'testAddJobCategoryValidInput')
+data.setCell(45, 2, 'Job_Module.JobCategoriesTest')
+data.setCell(45, 3, 3285);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'testDeleteMultipleEmploymentStatuses')
+data.setCell(46, 2, 'Job_Module.EmploymentStatusTest')
+data.setCell(46, 3, 3278);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'testEmploymentStatusFieldCannotBeBlank')
+data.setCell(47, 2, 'Job_Module.EmploymentStatusTest')
+data.setCell(47, 3, 3272);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'CancelTest')
+data.setCell(48, 2, 'Organization_Module.OrganizationLocationEditTest')
+data.setCell(48, 3, 3144);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'checkRequiredFields')
+data.setCell(49, 2, 'Job_Module.PayGradesTest')
+data.setCell(49, 3, 2942);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'OrganizationNameTest')
+data.setCell(50, 2, 'Organization_Module.OrganizationGeneralInfoTest')
+data.setCell(50, 3, 2897);
+data.setCell(51, 0, 51)
+data.setCell(51, 1, 'CancelTest')
+data.setCell(51, 2, 'Organization_Module.OrganizationLOcationDeleteTest')
+data.setCell(51, 3, 2867);
+data.setCell(52, 0, 52)
+data.setCell(52, 1, 'DeleteTest')
+data.setCell(52, 2, 'Organization_Module.OrganizationLOcationDeleteTest')
+data.setCell(52, 3, 2797);
+data.setCell(53, 0, 53)
+data.setCell(53, 1, 'checkUniqeUserName')
+data.setCell(53, 2, 'User_Management_Module.UserManagementTest')
+data.setCell(53, 3, 2697);
+data.setCell(54, 0, 54)
+data.setCell(54, 1, 'InvalidEmailTest')
+data.setCell(54, 2, 'Organization_Module.OrganizationGeneralInfoTest')
+data.setCell(54, 3, 2596);
+data.setCell(55, 0, 55)
+data.setCell(55, 1, 'testDeleteMultipleJobCategories')
+data.setCell(55, 2, 'Job_Module.JobCategoriesTest')
+data.setCell(55, 3, 2517);
+data.setCell(56, 0, 56)
+data.setCell(56, 1, 'InvalidBlankEditTest')
+data.setCell(56, 2, 'Organization_Module.OrganizationGeneralInfoTest')
+data.setCell(56, 3, 2341);
+data.setCell(57, 0, 57)
+data.setCell(57, 1, 'testJobCategoryFieldCannotBeBlank')
+data.setCell(57, 2, 'Job_Module.JobCategoriesTest')
+data.setCell(57, 3, 2293);
+data.setCell(58, 0, 58)
+data.setCell(58, 1, 'addOvernightWorkShift_bugShowsError')
+data.setCell(58, 2, 'Job_Module.WorkShiftsTest')
+data.setCell(58, 3, 2283);
+data.setCell(59, 0, 59)
+data.setCell(59, 1, 'testDeleteSingleJobCategory')
+data.setCell(59, 2, 'Job_Module.JobCategoriesTest')
+data.setCell(59, 3, 2211);
+data.setCell(60, 0, 60)
+data.setCell(60, 1, 'cannotAddWithMissingMandatoryFields')
+data.setCell(60, 2, 'Job_Module.WorkShiftsTest')
+data.setCell(60, 3, 2181);
+data.setCell(61, 0, 61)
+data.setCell(61, 1, 'cannotAddDuplicateName')
+data.setCell(61, 2, 'Job_Module.WorkShiftsTest')
+data.setCell(61, 3, 2173);
+data.setCell(62, 0, 62)
+data.setCell(62, 1, 'logIn')
+data.setCell(62, 2, 'QABootcamp_Maven.OrangeHRM.LogInTest')
+data.setCell(62, 3, 2146);
+data.setCell(63, 0, 63)
+data.setCell(63, 1, 'logIn')
+data.setCell(63, 2, 'QABootcamp_Maven.OrangeHRM.LogInTest')
+data.setCell(63, 3, 2139);
+data.setCell(64, 0, 64)
+data.setCell(64, 1, 'InvalidPhoneNumberTest')
+data.setCell(64, 2, 'Organization_Module.OrganizationGeneralInfoTest')
+data.setCell(64, 3, 2102);
+data.setCell(65, 0, 65)
+data.setCell(65, 1, 'logIn')
+data.setCell(65, 2, 'QABootcamp_Maven.OrangeHRM.LogInTest')
+data.setCell(65, 3, 2096);
+data.setCell(66, 0, 66)
+data.setCell(66, 1, 'deleteMultipleWorkShifts')
+data.setCell(66, 2, 'Job_Module.WorkShiftsTest')
+data.setCell(66, 3, 1936);
+data.setCell(67, 0, 67)
+data.setCell(67, 1, 'searchUser')
+data.setCell(67, 2, 'User_Management_Module.UserManagementTest')
+data.setCell(67, 3, 1748);
+data.setCell(68, 0, 68)
+data.setCell(68, 1, 'checkRequiredFields')
+data.setCell(68, 2, 'User_Management_Module.UserManagementTest')
+data.setCell(68, 3, 1255);
+data.setCell(69, 0, 69)
+data.setCell(69, 1, 'deleteSingleWorkShift')
+data.setCell(69, 2, 'Job_Module.WorkShiftsTest')
+data.setCell(69, 3, 1023);
+data.setCell(70, 0, 70)
+data.setCell(70, 1, 'verifyNegativeSalaryWarning')
+data.setCell(70, 2, 'Job_Module.PayGradesTest')
+data.setCell(70, 3, 729);
+data.setCell(71, 0, 71)
+data.setCell(71, 1, 'checkPassword')
+data.setCell(71, 2, 'User_Management_Module.UserManagementTest')
+data.setCell(71, 3, 617);
+data.setCell(72, 0, 72)
+data.setCell(72, 1, 'logIn')
+data.setCell(72, 2, 'QABootcamp_Maven.OrangeHRM.LogInTest')
+data.setCell(72, 3, 561);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 7 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">24 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Job_Module.WorkShiftsTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">PIM_Module.AddEmployeeTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">User_Management_Module.UserManagementTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Job_Module.JobTitlesTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Organization_Module.OrganizationLocationEditTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Organization_Module.OrganizationLOcationDeleteTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Job_Module.PayGradesTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Job_Module.EmploymentStatusTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Organization_Module.OrganizationLocationsTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Organization_Module.OrganizationGeneralInfoTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Organization_Module.OrganizationLocationAddTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Job_Module.JobCategoriesTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">QABootcamp_Maven.OrangeHRM.LogInTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpPage</span>
+                <span class="method-start">2693 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">logIn(Admin, test123, Invalid credentials)</span>
+                <span class="method-start">2696 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logIn(test, admin123, Invalid credentials)</span>
+                <span class="method-start">4846 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpPage</span>
+                <span class="method-start">4846 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpPage</span>
+                <span class="method-start">6946 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">logIn(, , Invalid credentials)</span>
+                <span class="method-start">6946 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logIn(Admin, admin123, Dashboard)</span>
+                <span class="method-start">7510 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpPage</span>
+                <span class="method-start">7510 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">User_Management_Module.UserManagementTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpPage</span>
+                <span class="method-start">9664 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addUser</span>
+                <span class="method-start">9680 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpPage</span>
+                <span class="method-start">28942 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">searchUser</span>
+                <span class="method-start">28942 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkUniqeUserName</span>
+                <span class="method-start">30709 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpPage</span>
+                <span class="method-start">30709 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpPage</span>
+                <span class="method-start">33406 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkPassword</span>
+                <span class="method-start">33406 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpPage</span>
+                <span class="method-start">34023 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkRequiredFields</span>
+                <span class="method-start">34035 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deleteUser</span>
+                <span class="method-start">35292 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpPage</span>
+                <span class="method-start">35292 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpPage</span>
+                <span class="method-start">42082 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">editUser</span>
+                <span class="method-start">42082 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpPage</span>
+                <span class="method-start">54889 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">deleteAllUser</span>
+                <span class="method-start">54897 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Job_Module.JobTitlesTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpPage</span>
+                <span class="method-start">60399 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addJobTitle</span>
+                <span class="method-start">60402 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkRequiredFields</span>
+                <span class="method-start">71958 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpPage</span>
+                <span class="method-start">71958 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">editJobTitle</span>
+                <span class="method-start">76087 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpPage</span>
+                <span class="method-start">76087 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">deleteJob</span>
+                <span class="method-start">84589 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpPage</span>
+                <span class="method-start">84589 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpPage</span>
+                <span class="method-start">89619 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deleteAllJobs</span>
+                <span class="method-start">89620 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Job_Module.PayGradesTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">addPayGrade</span>
+                <span class="method-start">113917 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpPage</span>
+                <span class="method-start">113917 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkRequiredFields</span>
+                <span class="method-start">124627 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpPage</span>
+                <span class="method-start">124627 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpPage</span>
+                <span class="method-start">127578 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyInvalidSalaryWarning</span>
+                <span class="method-start">127578 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpPage</span>
+                <span class="method-start">131704 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyNegativeSalaryWarning</span>
+                <span class="method-start">131704 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deleteOneCurrency</span>
+                <span class="method-start">132436 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpPage</span>
+                <span class="method-start">132436 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpPage</span>
+                <span class="method-start">143384 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">deleteAllCurrencies</span>
+                <span class="method-start">143384 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpPage</span>
+                <span class="method-start">152143 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">editPayGradeName</span>
+                <span class="method-start">152143 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpPage</span>
+                <span class="method-start">159862 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">editCurrencyDetails</span>
+                <span class="method-start">159863 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpPage</span>
+                <span class="method-start">166090 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">deleteOnePayGrade</span>
+                <span class="method-start">166090 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deleteAllPayGrades</span>
+                <span class="method-start">172262 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpPage</span>
+                <span class="method-start">172262 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Job_Module.EmploymentStatusTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setupClass</span>
+                <span class="method-start">176213 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testAddEmploymentStatus</span>
+                <span class="method-start">177375 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">waitBetweenTests</span>
+                <span class="method-start">182713 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testEmploymentStatusFieldCannotBeBlank</span>
+                <span class="method-start">187713 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">waitBetweenTests</span>
+                <span class="method-start">190987 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testEditEmploymentStatus</span>
+                <span class="method-start">195989 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">waitBetweenTests</span>
+                <span class="method-start">200545 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testDeleteSingleEmploymentStatus</span>
+                <span class="method-start">205547 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">waitBetweenTests</span>
+                <span class="method-start">208886 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testDeleteMultipleEmploymentStatuses</span>
+                <span class="method-start">213888 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">waitBetweenTests</span>
+                <span class="method-start">217168 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testDuplicateEmploymentStatusNotAllowed</span>
+                <span class="method-start">222171 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">waitBetweenTests</span>
+                <span class="method-start">231875 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Job_Module.JobCategoriesTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setupClass</span>
+                <span class="method-start">236875 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testAddJobCategoryValidInput</span>
+                <span class="method-start">239869 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">resetPage</span>
+                <span class="method-start">243155 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testJobCategoryFieldCannotBeBlank</span>
+                <span class="method-start">248532 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">resetPage</span>
+                <span class="method-start">250826 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testDuplicateJobCategoryNotAllowed</span>
+                <span class="method-start">255556 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">resetPage</span>
+                <span class="method-start">258863 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testEditJobCategory</span>
+                <span class="method-start">263680 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">resetPage</span>
+                <span class="method-start">267474 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testDeleteSingleJobCategory</span>
+                <span class="method-start">272793 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">resetPage</span>
+                <span class="method-start">275006 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testDeleteMultipleJobCategories</span>
+                <span class="method-start">279973 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">resetPage</span>
+                <span class="method-start">282492 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testSpecialCharactersInJobCategory</span>
+                <span class="method-start">287932 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">resetPage</span>
+                <span class="method-start">291245 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Job_Module.WorkShiftsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setupClass</span>
+                <span class="method-start">296245 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">addValidWorkShift</span>
+                <span class="method-start">297922 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanup</span>
+                <span class="method-start">305227 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">smallPause</span>
+                <span class="method-start">315581 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">addOvernightWorkShift_bugShowsError</span>
+                <span class="method-start">316585 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanup</span>
+                <span class="method-start">318870 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">smallPause</span>
+                <span class="method-start">322488 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">cannotAddWithMissingMandatoryFields</span>
+                <span class="method-start">323490 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanup</span>
+                <span class="method-start">325672 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">smallPause</span>
+                <span class="method-start">329332 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">cannotAddDuplicateName</span>
+                <span class="method-start">330334 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanup</span>
+                <span class="method-start">332508 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">smallPause</span>
+                <span class="method-start">336159 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">editDayShiftToDayShift2</span>
+                <span class="method-start">337160 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanup</span>
+                <span class="method-start">341053 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">smallPause</span>
+                <span class="method-start">345272 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">deleteSingleWorkShift</span>
+                <span class="method-start">346274 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanup</span>
+                <span class="method-start">347298 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">smallPause</span>
+                <span class="method-start">357632 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">deleteMultipleWorkShifts</span>
+                <span class="method-start">358634 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanup</span>
+                <span class="method-start">360572 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">smallPause</span>
+                <span class="method-start">370898 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Organization_Module.OrganizationGeneralInfoTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpPage</span>
+                <span class="method-start">371901 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">InvalidBlankEditTest</span>
+                <span class="method-start">371904 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">InvalidEmailTest</span>
+                <span class="method-start">374248 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">InvalidPhoneNumberTest</span>
+                <span class="method-start">376847 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">OrganizationNameTest</span>
+                <span class="method-start">378951 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Organization_Module.OrganizationLocationAddTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpPage</span>
+                <span class="method-start">381849 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">inValidAddTest</span>
+                <span class="method-start">381856 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ValidAddTest</span>
+                <span class="method-start">395381 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DuplicateAddTest</span>
+                <span class="method-start">404764 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Organization_Module.OrganizationLocationsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpPage</span>
+                <span class="method-start">413946 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">ValidAddTest</span>
+                <span class="method-start">413948 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ValidNameSearch</span>
+                <span class="method-start">424112 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ValidCitySearch</span>
+                <span class="method-start">428021 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ValidSearch</span>
+                <span class="method-start">441766 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ResetTest</span>
+                <span class="method-start">462062 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">inValidSearch</span>
+                <span class="method-start">471818 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Organization_Module.OrganizationLocationEditTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpPage</span>
+                <span class="method-start">485143 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">inValidEditTest</span>
+                <span class="method-start">485150 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CancelTest</span>
+                <span class="method-start">499775 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ValidEditTest</span>
+                <span class="method-start">502919 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Organization_Module.OrganizationLOcationDeleteTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpPage</span>
+                <span class="method-start">513766 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">CancelTest</span>
+                <span class="method-start">513778 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DeleteTest</span>
+                <span class="method-start">516652 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DeleteMultipleTest</span>
+                <span class="method-start">519463 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ValidAddTest</span>
+                <span class="method-start">531477 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DeleteAllRecordsTest</span>
+                <span class="method-start">550324 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ValidAddTest2</span>
+                <span class="method-start">553716 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PIM_Module.AddEmployeeTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpPages</span>
+                <span class="method-start">563466 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">validAddEmployee</span>
+                <span class="method-start">563466 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">invalidAddEmployeeWithBlankFields</span>
+                <span class="method-start">571476 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">invalidAddEmployeeWithTooLargeData</span>
+                <span class="method-start">575964 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">cancelAddEmployeeTest</span>
+                <span class="method-start">579639 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">QABootcamp_Maven.OrangeHRM.LogInTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">584107 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

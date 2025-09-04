@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="QABootcamp_Maven.OrangeHRM.LogInTest" />
+			<class name="User_Management_Module.UserManagementTest" />
+			<class name="Job_Module.JobTitlesTest" />
+			<class name="Job_Module.PayGradesTest" />
+			<class name="Job_Module.EmploymentStatusTest" />
+			<class name="Job_Module.JobCategoriesTest" />
+			<class name="Job_Module.WorkShiftsTest" />
+			<class name="Organization_Module.OrganizationGeneralInfoTest" />
+			<class name="Organization_Module.OrganizationLocationAddTest" />
+			<class name="Organization_Module.OrganizationLocationsTest" />
+			<class name="Organization_Module.OrganizationLocationEditTest" />
+			<class name="Organization_Module.OrganizationLOcationDeleteTest" />
+			<class name="PIM_Module.AddEmployeeTest" />
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->

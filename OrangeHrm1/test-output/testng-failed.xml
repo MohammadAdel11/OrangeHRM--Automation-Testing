@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="QABootcamp_Maven.OrangeHRM.LogInTest">
+        <methods>
+          <include name="setup"/>
+          <include name="setUpPage"/>
+          <include name="logIn" invocation-numbers="0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- QABootcamp_Maven.OrangeHRM.LogInTest -->
+      <class name="Job_Module.JobTitlesTest">
+        <methods>
+          <include name="setUpPage"/>
+          <include name="setup"/>
+          <include name="deleteAllJobs"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Job_Module.JobTitlesTest -->
+      <class name="Organization_Module.OrganizationLocationEditTest">
+        <methods>
+          <include name="inValidEditTest"/>
+          <include name="setup"/>
+          <include name="setUpPage"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Organization_Module.OrganizationLocationEditTest -->
+      <class name="Organization_Module.OrganizationLOcationDeleteTest">
+        <methods>
+          <include name="ValidAddTest"/>
+          <include name="setUpPage"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Organization_Module.OrganizationLOcationDeleteTest -->
+      <class name="Organization_Module.OrganizationLocationsTest">
+        <methods>
+          <include name="ValidSearch"/>
+          <include name="setup"/>
+          <include name="ValidNameSearch"/>
+          <include name="tearDown"/>
+          <include name="setUpPage"/>
+          <include name="ValidCitySearch"/>
+        </methods>
+      </class> <!-- Organization_Module.OrganizationLocationsTest -->
+      <class name="Organization_Module.OrganizationLocationAddTest">
+        <methods>
+          <include name="setUpPage"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="inValidAddTest"/>
+        </methods>
+      </class> <!-- Organization_Module.OrganizationLocationAddTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
